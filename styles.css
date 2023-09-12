@@ -45,6 +45,13 @@ header {
         flex-direction: column;
         padding: min(30vh, 10rem) 2em;
 
+        background-color: hsl(0 0% 0% / 0.75);
+    }
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+    .primary-navigation ul {
         background-color: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
     }
 }
