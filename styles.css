@@ -28,3 +28,8 @@ header {
     text-decoration: none;
     color: white;
 }
+
+.primary-navigation a > span {
+    font-weight: 700;
+    margin-inline-end: 8px;
+} 
