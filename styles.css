@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: var(--clr-light);
     color: hsl(var(--clr-white));
     overflow-x: hidden;
     font-family: var(--ff-sans-normal);
@@ -247,4 +247,8 @@ header {
     transition: 0.3s ease-in-out;
 }
 
+/* styling page 2*/
+.page2 {
+    color: black;
+}
 
