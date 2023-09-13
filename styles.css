@@ -31,6 +31,15 @@ header {
     min-width: 152px;
     font-family: 'Playfair Display', serif;
     color: #e0e1dd;
+    position: relative;
+}
+
+.itali-surname {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-family: 'Italianno', cursive;
+    color: #f6bd60;
 }
 
 .logo h1 {
@@ -45,6 +54,7 @@ header {
 .logo hr {
     border-top: 1px solid #f6bd60;
     border-radius: 3px;
+    margin: 5px 0px 0px 0px;
 }
 
 .mobile-nav-toggle {
