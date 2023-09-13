@@ -247,6 +247,18 @@ header {
     transition: 0.3s ease-in-out;
 }
 
+/* styling the scrollbar */
+.scrollbar {
+    width: 100vw;
+    height: 2px;
+    transition: all linear 0.2s;
+    background-color: pink;
+    box-shadow: 0 0 10px 0px green;
+    position: sticky;
+    top: 100px;
+
+}
+
 /* styling page 2*/
 .page2 {
     color: black;
