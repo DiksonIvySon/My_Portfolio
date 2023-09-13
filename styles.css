@@ -60,6 +60,7 @@ header {
     bottom: -2rem;
     opacity: 0;
     transition: all 0.2s;
+    pointer-events: none;
 }
 
 .nav-link:hover::after {
