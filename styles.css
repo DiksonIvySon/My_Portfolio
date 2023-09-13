@@ -249,10 +249,9 @@ header {
 
 /* styling the scrollbar */
 .scrollbar {
-    height: 22px;
+    height: 2px;
     transition: all linear 0.2s;
-    background-color: red;
-    box-shadow: 0 0 10px 0px green;
+    background-color: #f6bd60;
     position: sticky;
     top: 100px;
 
