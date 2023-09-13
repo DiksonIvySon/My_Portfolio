@@ -20,3 +20,12 @@ mobileNavToggle.addEventListener('click', () => {
         mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
     }
 });
+
+// Making the scrollbar functional.
+let fullHeight = document.body.scrollHeight - window.innerHeight;
+
+window.addEventListener('scroll', function() {
+    scr=pageYOffset;
+    progress = (scr/fullHeight)*100;
+    document.querySelector('.scrollbar').style.width = `${progress}vw`
+})
