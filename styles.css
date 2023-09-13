@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: hsl(var(--clr-light));
+    background-color: gray;
     color: hsl(var(--clr-white));
     overflow-x: hidden;
     font-family: var(--ff-sans-normal);
@@ -38,11 +38,10 @@ header {
     margin-top: 0;
 }
 
-/*
-.logo-hr {
-    background-color: white;
+.logo hr {
+    border-top: 1px solid aqua;
+    border-radius: 3px;
 }
-*/
 
 .mobile-nav-toggle {
     display: none;
@@ -52,7 +51,7 @@ header {
     display: flex;
     gap: clamp(1.5rem, 5vw, 3.5rem);
     padding: 2rem;
-    
+    font-family: var(--ff-sans-normal);
 }
 
 .primary-navigation li {
