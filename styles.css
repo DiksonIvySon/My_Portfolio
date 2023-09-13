@@ -46,7 +46,7 @@ header {
     transition: all 0.4s;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     color: aqua;
 }
 
@@ -63,7 +63,7 @@ header {
     pointer-events: none;
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after, .nav-link:focus::after {
     opacity: 1;
 }
 
