@@ -22,6 +22,7 @@ header {
 .primary-navigation {
     display: flex;
     gap: 1.5rem;
+    padding: 1rem;
 }
 
 .primary-navigation li {
@@ -49,7 +50,7 @@ header {
 
         background-color: hsl(0 0% 0% / 0.5);
         transform: translateX(100%);
-        transition: transform 350ms ease-out;
+        transition: transform 350ms ease-in-out;
     }
 
     .primary-navigation[data-visible="true"] {
@@ -75,5 +76,15 @@ header {
     .primary-navigation {
         background-color: hsl(0 0% 100% / 0.1);
         backdrop-filter: blur(1rem);
+    }
+}
+
+@media (min-width:35em) and (max-width:45em) {
+    .primary-navigation {
+        padding-inline: 3rem;
+    }
+
+    .primary-navigation a > span {
+        display: none;
     }
 }
