@@ -39,9 +39,26 @@ header {
     list-style: none;
 }
 
-.primary-navigation li a {
+.nav-link {
     text-decoration: none;
     color: white;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+    color: aqua;
+}
+
+.nav-link::after {
+    content: '';
+    height: 0.2rem;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    opacity: 0;
 }
 
 .primary-navigation a > span {
@@ -98,4 +115,6 @@ header {
         display: none;
     }
 }
+
+
 
