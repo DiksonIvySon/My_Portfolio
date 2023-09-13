@@ -24,6 +24,24 @@ header {
     align-items: center;
 }
 
+.logo {
+    margin: 0rem 1rem 0rem 1rem;
+    min-width: 152px;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logo p {
+    margin-top: 0;
+}
+
+.logo-hr {
+    background-color: white;
+}
+
 .mobile-nav-toggle {
     display: none;
 }
@@ -102,6 +120,10 @@ header {
         top: 2rem;
         right: 2rem;
         display: block;
+    }
+
+    .nav-link:focus::after, .nav-link:hover::after {
+        opacity: 0;
     }
 }
 
