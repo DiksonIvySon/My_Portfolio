@@ -47,6 +47,11 @@ header {
     display: none;
 }
 
+.mobile-nav-toggle-span i:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
 .primary-navigation {
     display: flex;
     gap: clamp(1.5rem, 5vw, 3.5rem);
@@ -114,7 +119,7 @@ header {
         position: absolute;
         z-index: 10000;
         background-color: transparent;
-        font-size: 2rem;
+        font-size: 3rem;
         color: white;
         border: 0rem;
         width: 2rem;
