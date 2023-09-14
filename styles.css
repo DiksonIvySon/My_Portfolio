@@ -210,18 +210,26 @@ header {
 /* styling the first page content ...........................................................*/
 
 .firstPage-content {
-    margin-inline: 2rem;
+    margin: 2rem;
     display: flex;
     align-items:center;
     height: 100vh;
 }
 
 .firstPage-picture img {
-    width: 300px;
+    max-width: 350px;
+    width: 100%;
+    margin:0.8rem 0px;
 }
 
+/*
 .firstPage-picture {
     margin: 15px;
+}
+*/
+
+.firstPage-info {
+    max-width: 350px;
 }
 
 .firstPage-content > div {
