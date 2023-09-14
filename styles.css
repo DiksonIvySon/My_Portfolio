@@ -367,6 +367,15 @@ header {
     margin: 0.2rem 0rem;
 }
 
+.icons img {
+    width: 1.5rem;
+    margin-right: 0.8rem;
+}
+
+.icons img:hover {
+    cursor: pointer;
+} 
+
 /*styling the projects page*/
 .projects-Page {
     text-align: center;
