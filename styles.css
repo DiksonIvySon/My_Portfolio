@@ -283,13 +283,13 @@ header {
 .pageSection {
     min-height: 50rem;
     color: black;
-    padding-inline: 2rem;
 } 
 
 .pageHeading {
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
+    margin: 0;
 }
 
 /*styling the about page  **************************************************************************/
@@ -311,7 +311,7 @@ header {
     background-color: hsla(0,0%,100%,.2);
     padding: 1rem;
     border-radius: 1rem;
-    margin: 0.3rem 0rem 0rem 0rem;
+    margin: 1.7rem 0rem 0rem 0rem;
 }
 
 .myAboutPage-picture {
@@ -321,7 +321,7 @@ header {
 
 .myAboutPage-picture img {
     min-width: 3rem;
-    max-width: 20rem;
+    max-width: 15rem;
     width: 100%;
     border-radius: 50%;
     border: 1rem solid hsla(0,0%,100%,.2);
@@ -341,6 +341,7 @@ header {
 
 .myStack-title {
     text-align: center;
+    margin: 0;
 }
 
 .technology {
@@ -377,6 +378,46 @@ header {
     cursor: pointer;
     filter: none;
 } 
+
+@media (max-width:1350px) {
+    .myStack {
+        min-width: 730px;
+    }
+
+    .technology {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width:920px) {
+    .aboutPage-container {
+        flex-direction: column;
+    }
+
+    .aboutMe-info {
+        max-width: none;
+    }
+
+    .myStack {
+        min-width: 3rem;
+    }
+
+    .technology {
+        max-width: 20rem;
+    }
+}
+
+@media (min-width:430px) {
+    .technology {
+        max-width: 10rem;
+    }
+}
+
+@media (min-width:350px) {
+    .technology {
+        max-width: 7.7rem;
+    }
+}
 
 /*styling the projects page*/
 .projects-Page {
