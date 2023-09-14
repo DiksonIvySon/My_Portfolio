@@ -294,7 +294,7 @@ header {
 
 /*styling the about page  **************************************************************************/
 .about-Page {
-    background-color: #e0e1dd;
+    background-color: gray;
 }
 
 .aboutPage-container {
@@ -303,17 +303,40 @@ header {
 }
 
 .aboutMe-info {
-    max-width: 25rem;
+    max-width: 35rem;
+    margin: 2rem;
+}
+
+.aboutMe-info-text {
+    background-color: hsla(0,0%,100%,.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0.3rem 0rem 0rem 0rem;
+}
+
+.myAboutPage-picture {
+    display: flex;
+    justify-content: center;
 }
 
 .myAboutPage-picture img {
     min-width: 3rem;
+    max-width: 20rem;
     width: 100%;
+    border-radius: 50%;
+    border: 1rem solid hsla(0,0%,100%,.2);
 }
 
 .allTechnologies {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.myStack {
+    margin: 2rem;
+    background-color: hsla(0,0%,100%,.2);
+    border-radius: 1rem;
 }
 
 .myStack-title {
@@ -322,7 +345,7 @@ header {
 
 .technology {
     max-width: 20rem;
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: hsl(0 0% 100% / 0.2);
     padding: 0.5rem;
     border-radius: 0.5rem;
