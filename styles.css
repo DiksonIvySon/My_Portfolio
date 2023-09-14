@@ -217,13 +217,18 @@ header {
 }
 
 .firstPage-picture img {
-    width: 350px;
+    width: 300px;
+}
+
+.firstPage-picture {
+    margin: 15px;
 }
 
 .firstPage-content > div {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 /* styling the buttons */
@@ -256,7 +261,7 @@ header {
     transition: all linear 0.2s;
     background-color: #f6bd60;
     position: sticky;
-    top: 114px;
+    top: 109.08px;
     z-index: 1000;
 }
 
