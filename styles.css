@@ -370,10 +370,12 @@ header {
 .icons img {
     width: 1.5rem;
     margin-right: 0.8rem;
+    filter: grayscale(100%);
 }
 
 .icons img:hover {
     cursor: pointer;
+    filter: none;
 } 
 
 /*styling the projects page*/
