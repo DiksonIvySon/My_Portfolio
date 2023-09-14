@@ -289,12 +289,47 @@ header {
 .pageHeading {
     padding: 1rem;
     font-size: 2rem;
+    text-align: center;
 }
 
-/*styling the about page*/
+/*styling the about page  **************************************************************************/
 .about-Page {
-    text-align: center;
     background-color: #e0e1dd;
+}
+
+.aboutPage-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.myAboutPage-picture img {
+    min-width: 3rem;
+    width: 100%;
+}
+
+.allTechnologies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technology {
+    max-width: 20rem;
+}
+
+.technology-images {
+    display: flex;
+}
+
+.technology-images img {
+    width: 2rem;
+}
+
+.technology-heading {
+    margin: 0.2rem 0rem;
+}
+
+.technology-paragraph {
+    margin: 0.2rem 0rem;
 }
 
 /*styling the projects page*/
