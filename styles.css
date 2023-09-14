@@ -210,7 +210,7 @@ header {
 /* styling the first page content ...........................................................*/
 
 .firstPage-content {
-    margin: 2rem;
+    margin:0rem 2rem;
     display: flex;
     align-items:center;
     height: 100vh;
@@ -279,8 +279,40 @@ header {
     z-index: 1000;
 }
 
-/* styling page 2*/
-.page2 {
+/* Styling the sections ...........................................................................*/
+.pageSection {
+    min-height: 50rem;
     color: black;
+    padding-inline: 2rem;
+} 
+
+
+/*styling the about page*/
+.about-Page {
+    text-align: center;
+    background-color: #e0e1dd;
 }
 
+/*styling the projects page*/
+.projects-Page {
+    text-align: center;
+    background-color: #778da9;
+}
+
+/*styling the testimonials page*/
+.testimonials-Page {
+    text-align: center;
+    background-color: #415a77;
+}
+
+/*styling the Conceptual Projects page*/
+.ConceptualProjects-Page {
+    text-align: center;
+    background-color: #1b263b;
+}
+
+/*styling the blogPost page*/
+.blogPost-Page {
+    text-align: center;
+    background-color: #0d1b2a;
+}
