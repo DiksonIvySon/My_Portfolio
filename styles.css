@@ -302,6 +302,10 @@ header {
     justify-content: space-evenly;
 }
 
+.aboutMe-info {
+    max-width: 25rem;
+}
+
 .myAboutPage-picture img {
     min-width: 3rem;
     width: 100%;
