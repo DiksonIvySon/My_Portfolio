@@ -316,8 +316,16 @@ header {
     flex-wrap: wrap;
 }
 
+.myStack-title {
+    text-align: center;
+}
+
 .technology {
     max-width: 20rem;
+    margin: 1rem;
+    background-color: hsl(0 0% 100% / 0.2);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .technology-images {
