@@ -286,6 +286,10 @@ header {
     padding-inline: 2rem;
 } 
 
+.pageHeading {
+    padding: 1rem;
+    font-size: 2rem;
+}
 
 /*styling the about page*/
 .about-Page {
