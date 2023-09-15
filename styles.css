@@ -58,14 +58,14 @@ h1 {
 
 .itali-surname {
     position: absolute;
-    top: 20px;
+    top: 5px;
     right: 0;
     font-family: 'Italianno', cursive;
     color: gray;
 }
 
 .logo h1 {
-    margin-bottom: 0;
+    margin:0.5rem 0 0 0 ;
     padding-bottom: 0;
     font-family: font1;
 }
@@ -92,7 +92,7 @@ h1 {
 .primary-navigation {
     display: flex;
     gap: clamp(1.5rem, 5vw, 3.5rem);
-    padding: 2rem;
+    padding: 1.1rem;
     font-family: var(--ff-sans-normal);
 }
 
@@ -118,7 +118,7 @@ h1 {
     background-color: #f6bd60;
     position: absolute;
     left: 0;
-    bottom: -2rem;
+    bottom: -1rem;
     opacity: 0;
     transition: all 0.5s;
     pointer-events: none;
@@ -161,8 +161,8 @@ h1 {
         border: 0rem;
         width: 2rem;
         aspect-ratio: 1;
-        top: 2rem;
-        right: 2rem;
+        top: 1rem;
+        right: 3rem;
         display: block;
     }
 
@@ -248,13 +248,23 @@ h1 {
 }
 */
 
-.firstPage-illustration {
-    position: absolute;
-}
-
 .firstPage-info {
     max-width: 350px;
     z-index: 1;
+}
+
+.firstPage-info h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.firstPage-info .occupation {
+    margin-top: 2px;
+    color: gray;
+}
+
+.firstPage-info p {
+    background-color: #14213D;
 }
 
 .firstPage-content > div {
@@ -300,7 +310,7 @@ h1 {
     transition: all linear 0.2s;
     background-color: #f6bd60;
     position: sticky;
-    top: 109.08px;
+    top: 90.08px;
     z-index: 1000;
 }
 
@@ -483,7 +493,6 @@ h1 {
     z-index: 1;
     inset: 0;
     margin: auto;
-    width: 50%;
     height: 50%;
 }
 
