@@ -1,3 +1,13 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/recharge\ bd.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/Typoline_Expanded_demo.otf);
+}
+
 :root {
     /* colors */
     --clr-dark: 230 35% 7%;
@@ -29,6 +39,11 @@ header {
     z-index: 1000;
 }
 
+h1 {
+    font-family: font2;
+    font-weight: 400;
+}
+
 .logo {
     margin: 0rem 2rem 0rem 2rem;
     min-width: 152px;
@@ -42,12 +57,13 @@ header {
     top: 20px;
     right: 0;
     font-family: 'Italianno', cursive;
-    color: #f6bd60;
+    color: gray;
 }
 
 .logo h1 {
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: font1;
 }
 
 .logo p {
