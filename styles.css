@@ -310,7 +310,7 @@ h1 {
 
 /*styling the about page  **************************************************************************/
 .about-Page {
-    background-color: gray;
+    position: relative;
 }
 
 .aboutPage-container {
@@ -463,6 +463,16 @@ h1 {
 .projects-Page {
     text-align: center;
     background-color: #778da9;
+    position: relative;
+}
+
+.background-illustration {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
 }
 
 /*styling the testimonials page*/
