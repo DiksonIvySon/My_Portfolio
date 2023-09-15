@@ -8,6 +8,10 @@
     src: url(fonts/Typoline_Expanded_demo.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     /* colors */
     --clr-dark: 230 35% 7%;
@@ -244,8 +248,13 @@ h1 {
 }
 */
 
+.firstPage-illustration {
+    position: absolute;
+}
+
 .firstPage-info {
     max-width: 350px;
+    z-index: 1;
 }
 
 .firstPage-content > div {
@@ -297,7 +306,7 @@ h1 {
 
 /* Styling the sections ...........................................................................*/
 .pageSection {
-    min-height: 50rem;
+    min-height: 30rem;
     color: black;
 } 
 
@@ -311,6 +320,9 @@ h1 {
 /*styling the about page  **************************************************************************/
 .about-Page {
     position: relative;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
 }
 
 .aboutPage-container {
