@@ -129,6 +129,23 @@ h1 {
     width: 100%;
 }
 
+.backToHome {
+    color: #f6bd60;
+    position: sticky;
+    width: 10px;
+    margin-left: 90%;
+    bottom: 10%;
+}
+
+.backToHome h3 {
+    margin: 0;
+}
+
+.backToHome img {
+    width: 45px;
+    border-radius: 5px 5px 0px 0px ;
+}
+
 .primary-navigation a > span {
     font-weight: 700;
     margin-inline-end: 0.75rem;
