@@ -674,6 +674,11 @@ h1 {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    padding: 4rem;
+  }
+
+  .flip-card-front {
+    text-align: start;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -681,6 +686,18 @@ h1 {
     background-color: #bbb;
     color: black;
   }
+
+.front-testimonial-info-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px;
+}
+
+.front-testimonial-info-header img {
+    width: 50px;
+    border-radius: 50%;
+}
   
   /* Style the back side */
   .flip-card-back {
