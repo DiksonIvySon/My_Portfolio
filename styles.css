@@ -463,20 +463,16 @@ h1 {
 .projects-Page {
     text-align: center;
     background-color: #778da9;
-    position: relative;
 }
 
-.background-illustration {
-    position: absolute;
-    z-index: 1;
-    inset: 0;
-    margin: auto;
-    height: 50%;
+.recent-projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project-container {
     width: 300px;
-    height: 00px;
     margin: 10px;
 }
 
