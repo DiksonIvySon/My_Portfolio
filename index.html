@@ -17,38 +17,38 @@
     <!-- Script-->
     <script src="script.js" defer></script>
 </head>
-<body style="position: relative;">
+<body>
+    <header>
+        <div class="logo">
+            <div>
+                <div class="logo-name">
+                    <h1>Dikson</h1>
+                    <h3 class="itali-surname">Manganye</h3>
+                </div>
+            </div>
+            <hr class="logo-hr">
+            <p>Professional Portfolio</p>
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="mobile-nav-toggle-span"><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation" >
+                <!--<li class="nav-item"><a class="nav-link" href="#homePage"><span aria-hidden="true">00</span>HOME</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="#about-Page"><span aria-hidden="true">01</span>ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects-Page"><span aria-hidden="true">02</span>PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials-Page"><span aria-hidden="true">03</span>EDUCATION</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blogPost-Page"><span aria-hidden="true">04</span>BlogPosts</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="scrollbar"></div>
 
     <main>
         <section id="homePage" class="homePage pageSection">
-            <header>
-                <div class="logo">
-                    <div>
-                        <div class="logo-name">
-                            <h1>Dikson</h1>
-                            <h3 class="itali-surname">Manganye</h3>
-                        </div>
-                    </div>
-                    <hr class="logo-hr">
-                    <p>Professional Portfolio</p>
-                </div>
-        
-                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-                    <span class="mobile-nav-toggle-span"><i class="fa-solid fa-bars"></i></span>
-                </button>
-        
-                <nav>
-                    <ul id="primary-navigation" data-visible="false" class="primary-navigation" >
-                        <!--<li class="nav-item"><a class="nav-link" href="#homePage"><span aria-hidden="true">00</span>HOME</a></li>-->
-                        <li class="nav-item"><a class="nav-link" href="#about-Page"><span aria-hidden="true">01</span>ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects-Page"><span aria-hidden="true">02</span>PROJECTS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#testimonials-Page"><span aria-hidden="true">03</span>EDUCATION</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#blogPost-Page"><span aria-hidden="true">04</span>BlogPosts</a></li>
-                    </ul>
-                </nav>
-            </header>
             <div class="firstPage-content">
                 <div>
                     <div class="firstPage-info">
@@ -235,17 +235,48 @@
 
         <section id="projects-Page" class="projects-Page pageSection">
             <h1 class="pageHeading">My Projects</h1>
-            <div class="background-illustration">
+           <!--<div class="background-illustration">
                 <img src="illastrations/experimental-man-working-online.png" alt="">
+            </div>-->
+            
+            <div>
+                <div class="project-image">
+                    <img src="images/myCasualPucture.jpg" alt="">
+                </div>
+                <div class="Company">
+                    <h4>Company Name:</h4>
+                    <p class="company-name">steel gates Pty Ltd</p>
+                </div>
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3>Project Name</h3>
+                        <p>
+                            When you have some text, how can you choose a typeface? 
+                            Many people—professional designers included—go through
+                        </p>
+                        <div class="project-stack">
+                            <img src="icons/sass.png" alt="">
+                            <img src="icons/sass.png" alt="">
+                            <img src="icons/sass.png" alt="">
+                            <img src="icons/sass.png" alt="">
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <button>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <P>Open website</P>
+                        </button>
+                        <button>
+                            <i class="fa-brands fa-figma"></i>
+                            <P>View UX Design</P>
+                        </button>
+                        <button>
+                            <i class="fa-brands fa-github"></i>
+                            <P>View Code</P>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <p>When you have some text, how can you choose a typeface? 
-               Many people—professional designers included—go through 
-               an app's font menu until we find one we like. But the aim 
-               of this module is to show that there are many considerations 
-               that can improve our type choices. By setting some useful 
-               constraints to aid our type selection, we can also develop 
-               a critical eye for analyzing type along the way.
-            </p>
         </section>
 
         <section id="testimonials-Page" class="testimonials-Page pageSection">
