@@ -520,6 +520,21 @@ h1 {
     margin: 5px 0px;
 }
 
+.concept-learning {
+    padding: 3rem;
+}
+
+.concept-learning a {
+    text-decoration: none;
+    color: blue;
+}
+
+.concept-learning button {
+    padding: 1rem;
+    margin: 0.6rem;
+    cursor: pointer;
+}
+
 /*styling the testimonials page*/
 .testimonials-Page {
     text-align: center;
