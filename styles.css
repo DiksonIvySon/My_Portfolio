@@ -155,7 +155,7 @@ h1 {
     margin-inline-end: 0.75rem;
 } 
 
-@media (max-width: 35em) {
+@media (max-width: 50em) {
     .primary-navigation {
         position: fixed;
         z-index: 1000;
@@ -199,7 +199,7 @@ h1 {
     }
 }
 
-@media (min-width: 35em) and (max-width: 45em) {
+@media (min-width: 35em) and (max-width: 60em) {
     .primary-navigation {
         padding-inline: 3rem;
     }
