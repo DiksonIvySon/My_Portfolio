@@ -601,6 +601,11 @@ h1 {
     position: absolute;
     top: 0;
   }
+
+  .testimonial-card {
+    display: flex;
+    justify-content: center;
+  }
   
   /* The dots/bullets/indicators */
   .dot {
