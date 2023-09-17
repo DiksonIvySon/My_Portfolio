@@ -219,7 +219,7 @@ h1 {
 .pageSection {
     min-height: calc(100vh);
     color: black;
-    padding-top: 73px;
+    padding-top: 63px;
 } 
 
 .pageHeading {
@@ -308,7 +308,7 @@ h1 {
     transition: all linear 0.2s;
     background-color: #f6bd60;
     position: sticky;
-    top: 90.08px;
+    top: 63px;
     z-index: 1000;
 }
 
