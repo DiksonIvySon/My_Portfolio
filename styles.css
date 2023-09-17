@@ -698,6 +698,10 @@ h1 {
     width: 50px;
     border-radius: 50%;
 }
+
+.attestant {
+    color: gray;
+}
   
   /* Style the back side */
   .flip-card-back {
