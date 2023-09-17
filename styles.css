@@ -677,6 +677,44 @@ h1 {
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     padding: 4rem;
+    white-space: normal;
+  }
+
+  @media (max-width:620px) {
+    .flip-card {
+        min-height: 420px;
+    }
+
+    .flip-card-front, .flip-card-back {
+        padding: 1rem;
+        white-space:normal;
+    }
+
+    .corner-triangle img {
+        width: 40px;
+    }
+
+  }
+
+  @media (max-width:370px) {
+    .flip-card {
+        min-height: 420px;
+        width: 90%;
+    }
+
+    .flip-card-front, .flip-card-back {
+        padding: 1rem;
+        white-space:normal;
+    }
+
+    .corner-triangle img {
+        width: 40px;
+    }
+
+    .numbertext {
+        display: none;
+    }
+
   }
 
   .flip-card-front {
