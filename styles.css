@@ -702,6 +702,17 @@ h1 {
 .attestant {
     color: gray;
 }
+
+.corner-triangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+
+.corner-triangle img {
+    max-width: 70px;
+}
   
   /* Style the back side */
   .flip-card-back {
