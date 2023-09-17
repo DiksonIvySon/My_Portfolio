@@ -748,6 +748,19 @@ div.scroll-container {
 .blog-card img {
     max-height: 300px;
 }
+
+.blog-industry {
+    color: gray;
+}
+
+.blog-paragraph {
+    margin: 5px 0px;
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: blue;
+}
   
 /* On mouse-over, add a deeper shadow */
 .card:hover {
