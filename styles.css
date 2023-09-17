@@ -735,6 +735,10 @@ div.scroll-container {
     white-space: nowrap;
     padding: 10px;
     margin-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    
 }
 
 /* Add shadows to create the "card" effect */
