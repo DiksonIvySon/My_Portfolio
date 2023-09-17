@@ -214,6 +214,21 @@ h1 {
     }
 }
 
+/* Styling the sections ...........................................................................*/
+
+.pageSection {
+    min-height: calc(100vh);
+    color: black;
+    padding-top: 73px;
+} 
+
+.pageHeading {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
 /* styling the first page content ...........................................................*/
 
 .firstPage-content {
@@ -295,20 +310,6 @@ h1 {
     position: sticky;
     top: 90.08px;
     z-index: 1000;
-}
-
-/* Styling the sections ...........................................................................*/
-
-.pageSection {
-    min-height: calc(100vh - 90px);
-    color: black;
-} 
-
-.pageHeading {
-    padding: 1rem;
-    font-size: 2rem;
-    text-align: center;
-    margin: 0;
 }
 
 /*styling the about page  **************************************************************************/
@@ -551,7 +552,7 @@ h1 {
 
 .testimonials-Page > div {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
