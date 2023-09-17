@@ -727,18 +727,14 @@ h1 {
 /*styling the blogPost page*************************************************************************/
 .blogPost-Page {
     text-align: center;
-    background-color: #0d1b2a;
+    background-color: gray;
 }
 
 div.scroll-container {
-    background-color: gray;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-}
-  
-div.scroll-container img {
-    padding: 10px;
+    margin-inline: 1rem;
 }
 
 /* Add shadows to create the "card" effect */
@@ -746,7 +742,7 @@ div.scroll-container img {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     min-width: 250px;
-    width: 50%;
+    width: 70%;
 }
 
 .blog-card img {
@@ -762,6 +758,8 @@ div.scroll-container img {
 .container {
     padding: 2px 16px;
     background-color: white;
+    text-align: start;
+    white-space: normal;
 }
 
 /* Hide scrollbar but still be able to scroll ******************************************************/
