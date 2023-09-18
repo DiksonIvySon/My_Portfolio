@@ -294,6 +294,44 @@ header > div {
     cursor: pointer;
 }
 
+/* wave animation*/
+.waveGroup1 {
+    position: absolute;
+    top: 50%;
+}
+
+.wave {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #415a77;
+}
+
+.wave::before {
+    content: 'aaaaaaaa';
+    position: absolute;
+    top: -42px;
+    left: 0px;
+    font-size: 4.5rem;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    animation: animate 7s ease-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-px);
+    }
+    100% {
+        transform: translate(-59px);
+    }
+    0% {
+        transform: translateX(-1);
+    }
+}
 
 /*styling the about page  **************************************************************************/
 .about-Page {
