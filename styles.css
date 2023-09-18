@@ -226,8 +226,11 @@ header > div {
     text-align: center;
 }
 
-.firstPage-content {
+.firstPage-container {
     margin: 2rem;
+}
+
+.firstPage-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
