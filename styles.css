@@ -76,7 +76,7 @@ header > div {
 
 .mobile-nav-toggle-span i:hover {
     cursor: pointer;
-    color: #f6bd60;
+    color: #a47148;
 }
 
 .primary-navigation {
@@ -98,14 +98,14 @@ header > div {
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: #f6bd60;
+    color: #a47148;
 }
 
 .nav-link::after {
     content: '';
     height: 0.2rem;
     width: 0%;
-    background-color: #f6bd60;
+    background-color: #a47148;
     position: absolute;
     left: 0;
     bottom: -1rem;
@@ -123,14 +123,14 @@ header > div {
 .scrollbar {
     height: 2px;
     transition: all linear 0.2s;
-    background-color: #f6bd60;
+    background-color: #a47148;
     position: sticky;
     top: 63px;
     z-index: 1000;
 }
 
 .backToHome {
-    color: #f6bd60;
+    color: #a47148;
     position: sticky;
     width: 10px;
     margin-left: 90%;
@@ -284,6 +284,13 @@ header > div {
 .firstPage-button {
     border: 2px solid rgb(193, 193, 193);
     width: 100%;
+    padding: 2px;
+}
+
+.firstPage-button:hover {
+    color: white;
+    background-color: #a47148;
+    cursor: pointer;
 }
 
 
