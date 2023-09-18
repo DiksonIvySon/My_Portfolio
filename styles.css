@@ -240,8 +240,8 @@ header > div {
 
 .firstPageSideContent > div {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .firstPage-content h4 {
