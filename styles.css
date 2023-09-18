@@ -286,6 +286,7 @@ header > div {
     border: 2px solid rgb(193, 193, 193);
     width: 100%;
     padding: 2px;
+    background-color:  hsl(0 0% 100% / 0.9);
 }
 
 .firstPage-button:hover {
@@ -294,43 +295,15 @@ header > div {
     cursor: pointer;
 }
 
-/* wave animation*/
-.waveGroup1 {
+/* first page side illustrations*/
+.computer-illustration {
     position: absolute;
-    top: 50%;
+    top: 30%;
 }
 
-.wave {
-    position: relative;
-    width: 250px;
-    height: 50px;
-    overflow: hidden;
-    background-color: #415a77;
-}
-
-.wave::before {
-    content: 'aaaaaaaa';
+.person-illustration {
     position: absolute;
-    top: -42px;
-    left: 0px;
-    font-size: 4.5rem;
-    color: transparent;
-    text-decoration-style: wavy;
-    text-decoration-color: white;
-    text-decoration-line: underline;
-    animation: animate 7s ease-out infinite;
-}
-
-@keyframes animate {
-    0% {
-        transform: translateX(-px);
-    }
-    100% {
-        transform: translate(-59px);
-    }
-    0% {
-        transform: translateX(-1);
-    }
+    top: 30%;
 }
 
 /*styling the about page  **************************************************************************/
