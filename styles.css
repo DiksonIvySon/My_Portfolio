@@ -1,6 +1,6 @@
 @font-face {
-    font-family: font1;
-    src: url(fonts/recharge\ bd.otf);
+    font-family: San-Francisco;
+    src: url(fonts/SFUIText-RegularG1.otf);
 }
 
 *{
@@ -17,22 +17,21 @@ html {
 
 :root {
     /* colors */
-    --clr-dark: 230 35% 7%;
-    --clr-light: 231 77% 90%;
-    --clr-white: 0 0% 100%;
+    --background-clr-dark: black;
+    --background-clr-light: white;
+    --text-clr-dark: white;
+    --text-clr-light: black;
 
     /* font-families */
-    --ff-serif: "Bellefair", serif;
-    --ff-sans-cond: "Barlow Condensed", sans-serif;
-    --ff-sans-normal: "Barlow", sans-serif;
+    --header-nav-font: "Barlow", sans-serif;
 }
 
 body {
-    background-color: var(--clr-light);
-    color: hsl(var(--clr-white));
+    background-color: var(--background-clr-light);
+    color: var(--text-clr-light);
     overflow-x: hidden;
-    font-family: var(--ff-sans-normal);
     margin: 0;
+    font-family: San-Francisco, Helvetica, Arial, Georgia, Tahoma, sans-serif;
 }
 
 /* Styling the header ................................................................*/
