@@ -58,16 +58,13 @@ h1 {
 
 .logo {
     margin: 0rem 2rem 0rem 2rem;
-    min-width: 152px;
-    font-family: 'Playfair Display', serif;
-    color: #e0e1dd;
     position: relative;
 }
 
 .itali-surname {
     position: absolute;
-    top: 15px;
-    right: 0;
+    top: 20px;
+    right: -20px;
     font-family: 'Italianno', cursive;
     color: gray;
 }
@@ -75,7 +72,6 @@ h1 {
 .logo h1 {
     margin: 0 ;
     padding-bottom: 0;
-    font-family: font1;
 }
 
 .logo p {
