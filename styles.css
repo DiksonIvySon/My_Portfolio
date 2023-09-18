@@ -264,6 +264,10 @@ header > div {
     border-radius: 150px;
 }
 
+.firstPage-rightSide-content {
+    text-align: right;
+}
+
 
 /*styling the about page  **************************************************************************/
 .about-Page {
