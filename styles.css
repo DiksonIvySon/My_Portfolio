@@ -315,8 +315,7 @@ h1 {
 /*styling the about page  **************************************************************************/
 .about-Page {
     position: relative;
-    background-color: gray;
-    color: white;
+    background-color: white;
     font-size: 14px;
 }
 
@@ -331,10 +330,12 @@ h1 {
 }
 
 .aboutMe-info-text {
-    background-color: hsla(0,0%,100%,.2);
     padding: 1rem;
     border-radius: 1rem;
     margin: 1.7rem 0rem 0rem 0rem;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  13px 13px 31px #c3c3c3,
+                -13px -13px 31px #fdfdfd;
 }
 
 .myAboutPage-picture {
@@ -346,8 +347,9 @@ h1 {
     min-width: 3rem;
     max-width: 15rem;
     width: 100%;
-    border-radius: 50%;
     border: 1rem solid hsla(0,0%,100%,.2);
+    border-radius: 50%;
+
 }
 
 .allTechnologies {
@@ -358,8 +360,10 @@ h1 {
 
 .myStack {
     margin: 2rem;
-    background-color: hsla(0,0%,100%,.2);
     border-radius: 1rem;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  13px 13px 31px #c3c3c3,
+                -13px -13px 31px #fdfdfd;
 }
 
 .myStack-title {
