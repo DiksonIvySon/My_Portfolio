@@ -245,7 +245,23 @@ header > div {
 }
 
 .firstPage-content h4 {
-    color: gray;
+    color: rgb(193, 193, 193);
+}
+
+.firstPage-picture-container {
+    width: 25%;
+    min-width: 160px;
+    height: 450px;
+    border: 2px solid rgb(193, 193, 193);
+    padding: 10px;
+    border-radius: 150px;
+}
+
+.firstPage-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 150px;
 }
 
 
