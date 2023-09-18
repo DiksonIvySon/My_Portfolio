@@ -223,76 +223,7 @@ header > div {
 
 /* styling the first page content ...........................................................*/
 
-.firstPage-content {
-    margin:0rem 2rem;
-    display: flex;
-    align-items:center;
-    height: 100vh;
-}
 
-.firstPage-picture img {
-    max-width: 350px;
-    width: 100%;
-    margin:0.8rem 0px;
-}
-
-/*
-.firstPage-picture {
-    margin: 15px;
-}
-*/
-
-.firstPage-info {
-    max-width: 350px;
-    z-index: 1;
-}
-
-.firstPage-info h1 {
-    font-size: 2rem;
-    margin: 0;
-}
-
-.firstPage-info .occupation {
-    margin-top: 2px;
-    color: gray;
-}
-
-.firstPage-content > div {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
-    flex-wrap: wrap;
-}
-
-/* styling the buttons */
-.firstPage-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-}
-
-.firstPage-buttons > div {
-    width: 100%;
-}
-
-.firstPage-button {
-    width: 100%;
-    padding: 0.3rem;
-    min-width: 6rem;
-    height: 3rem;
-    border: 0.2rem solid #f6bd60;
-    border-radius: 10rem;
-    background-color: transparent;
-    color: #f6bd60;
-    font-size: 1rem;
-}
-
-.firstPage-button:hover {
-    background-color: hsl(0 0% 100% / 0.1);
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
 
 /*styling the about page  **************************************************************************/
 .about-Page {
