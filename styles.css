@@ -298,12 +298,18 @@ header > div {
 /* first page side illustrations*/
 .computer-illustration {
     position: absolute;
-    top: 30%;
+    top: 0%;
+    left: -50%;
+    width: 250px;
+    z-index: -1;
 }
 
 .person-illustration {
     position: absolute;
-    top: 30%;
+    top: 40%;
+    right: -60%;
+    width: 250px;
+
 }
 
 /*styling the about page  **************************************************************************/
