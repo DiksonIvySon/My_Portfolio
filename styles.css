@@ -271,6 +271,20 @@ header > div {
     text-align: right;
 }
 
+.firstPage-buttons {
+    display: flex;
+}
+
+.firstPage-buttons > div {
+    margin: 5px;
+    width: 100%;
+}
+
+.firstPage-button {
+    border: 2px solid rgb(193, 193, 193);
+    width: 100%;
+}
+
 
 /*styling the about page  **************************************************************************/
 .about-Page {
