@@ -260,6 +260,7 @@ header > div {
     border: 2px solid rgb(193, 193, 193);
     padding: 10px;
     border-radius: 150px;
+    background-color: white;
 }
 
 .firstPage-picture-container img {
@@ -309,7 +310,7 @@ header > div {
     top: 40%;
     right: -60%;
     width: 250px;
-
+    z-index: -1;
 }
 
 /*styling the about page  **************************************************************************/
