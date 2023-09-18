@@ -48,7 +48,7 @@ header > div {
     background-color: rgba(130, 130, 130, 0.6);;
     position: absolute;
     width: 100vw;
-    padding: 5px;
+    padding: 5px 5px 5px 0px;
     min-height: 64px;
 }
 
@@ -224,6 +224,28 @@ header > div {
 /* styling the first page content ...........................................................*/
 .firstPage-tittle {
     text-align: center;
+}
+
+.firstPage-content {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.firstPageSideContent {
+    max-width: 15%;
+}
+
+.firstPageSideContent > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.firstPage-content h4 {
+    color: gray;
 }
 
 
