@@ -802,6 +802,7 @@ div.scroll-container {
 .scroll-container::-webkit-scrollbar {
     background-color: white;
     height: 10px;
+    border-radius: 10px;
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
