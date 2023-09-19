@@ -795,7 +795,18 @@ div.scroll-container {
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    
+
+}
+
+/* Styling the blog post horizontal scroll bar */
+.scroll-container::-webkit-scrollbar {
+    background-color: white;
+    height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #14213D;
+    border-radius: 10px;
 }
 
 /* Add shadows to create the "card" effect */
