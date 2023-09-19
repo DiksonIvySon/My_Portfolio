@@ -292,7 +292,7 @@ header > div {
 
 .firstPage-button:hover {
     color: white;
-    background-color: #a47148;
+    background-image: linear-gradient(180deg, #2e3c47, #364856, #607d94);
     cursor: pointer;
 }
 
