@@ -50,7 +50,7 @@ header > div {
     opacity: 0.9;
     position: absolute;
     width: 100vw;
-    padding: 5px 5px 5px 0px;
+    padding: 5px 0px 5px 0px;
     min-height: 64px;
 }
 
