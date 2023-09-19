@@ -544,6 +544,29 @@ header > div {
     margin: 4px;
     border: 0px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    position: relative;
+    overflow: hidden;
+} 
+
+.project-buttons button:hover {
+    cursor: pointer;
+    color: #5badcc;
+}
+
+.project-buttons button::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(30deg) translateX(150px);
+    transition: 1s;
+}
+
+.project-buttons button:hover::before {
+    transform: skewX(30deg) translateX(-150px); 
 }
 
 .project-info {
