@@ -489,9 +489,13 @@ header > div {
     border: 1px solid black;
 }
 
+.project-image {
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+}
+
 .project-image img {
-    max-width: 300px;
-    max-height: 200px;
+    height: 100%;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
