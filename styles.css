@@ -806,8 +806,9 @@ div.scroll-container {
     width: 70%;
 }
 
-.blog-card img {
-    max-height: 300px;
+.blogPost-image img {
+    height: 100%;
+    width: 100%;
 }
 
 .blog-industry {
