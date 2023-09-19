@@ -791,11 +791,10 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-    margin-inline: 1rem;
+    margin: 1rem;
     display: flex;
     justify-content: space-between;
     gap: 60px;
-
 }
 
 /* Styling the blog post horizontal scroll bar */
