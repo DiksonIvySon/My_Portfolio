@@ -316,7 +316,7 @@ header > div {
 /*styling the about page  **************************************************************************/
 .about-Page {
     position: relative;
-    background-color: #14213D;
+    background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #448197, #607d94);
     font-size: 14px;
     margin-inline: 1rem;
     border-radius: 1rem 1rem 0rem 0rem;
@@ -559,7 +559,7 @@ header > div {
 
 /*styling the testimonials page ********************************************************************/
 .testimonials-Page {
-    background-color: #415a77;
+    background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #607d94);
     position: relative;
 }
 
@@ -784,7 +784,6 @@ header > div {
 /*styling the blogPost page*************************************************************************/
 .blogPost-Page {
     text-align: center;
-    background-color: gray;
 }
 
 div.scroll-container {
