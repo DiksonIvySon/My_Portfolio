@@ -410,13 +410,14 @@ header > div {
 .icons img {
     width: 1.5rem;
     filter: grayscale(100%);
+    transition: 0.4s;
 }
 
 .icons img:hover {
+    transform: translateY(-20px);
     cursor: pointer;
     filter: none;
     width: 2rem;
-    transition: 0.4s ease-out;
 } 
 
 @media (min-width:1500px) {
