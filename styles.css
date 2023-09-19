@@ -76,7 +76,7 @@ header > div {
 
 .mobile-nav-toggle-span i:hover {
     cursor: pointer;
-    color: #a47148;
+    color: #5badcc;
 }
 
 .primary-navigation {
@@ -98,14 +98,14 @@ header > div {
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: #a47148;
+    color: #5badcc;
 }
 
 .nav-link::after {
     content: '';
     height: 0.2rem;
     width: 0%;
-    background-color: #a47148;
+    background-color: #5badcc;
     position: absolute;
     left: 0;
     bottom: -1rem;
@@ -124,14 +124,14 @@ header > div {
     height: 2px;
     width: 0%;
     transition: all linear 0.2s;
-    background-color: #a47148;
+    background-color: #5badcc;
     position: sticky;
     top: 63px;
     z-index: 1000;
 }
 
 .backToHome {
-    color: #a47148;
+    color: #5badcc;
     position: sticky;
     width: 10px;
     margin-left: 90%;
