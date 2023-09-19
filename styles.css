@@ -806,6 +806,10 @@ div.scroll-container {
     width: 70%;
 }
 
+.blogPost-image {
+    height: 200px;
+}
+
 .blogPost-image img {
     height: 100%;
     width: 100%;
