@@ -397,15 +397,27 @@ header > div {
     margin: 0.2rem 0rem;
 }
 
+.icons {
+    margin-top: 10px;
+    display: flex;
+}
+
+.icons > div {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
 .icons img {
     width: 1.5rem;
-    margin-right: 0.8rem;
     filter: grayscale(100%);
 }
 
 .icons img:hover {
     cursor: pointer;
     filter: none;
+    width: 2rem;
+    transition: 0.4s ease-out;
 } 
 
 @media (min-width:1500px) {
