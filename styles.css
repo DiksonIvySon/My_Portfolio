@@ -654,7 +654,7 @@ header > div {
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
+    color: #5badcc;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -781,11 +781,18 @@ header > div {
     text-align: start;
   }
   
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: white;
     color: black;
-  }
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: gray;
+    color: white;
+    transform: rotateY(180deg);
+}
 
 .front-testimonial-info-header {
     display: flex;
@@ -813,13 +820,6 @@ header > div {
 .corner-triangle img {
     max-width: 70px;
 }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: wheat;
-    color: white;
-    transform: rotateY(180deg);
-  }
   
 
 /*styling the blogPost page*************************************************************************/
