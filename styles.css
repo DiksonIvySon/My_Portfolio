@@ -303,6 +303,23 @@ header > div {
     background-color:  hsl(0 0% 100% / 0.9);
 }
 
+/* first page side illustrations*/
+.computer-illustration {
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    width: 250px;
+    z-index: -1;
+}
+
+.person-illustration {
+    position: absolute;
+    top: 40%;
+    right: -60%;
+    width: 250px;
+    z-index: -1;
+}
+
 @media (min-width:900px) {
     .firstPage-mobileView-content {
         display: none;
@@ -347,8 +364,6 @@ header > div {
         height: 60px;
     }
 
-    
-
     .firstPage p {
         font-size: 12px;
     }
@@ -377,23 +392,17 @@ header > div {
         font-size: 20px;
     }
 
-}
+    /* first page side illustrations*/
+    .computer-illustration {
+        left: -60%;
+        width: 200px;
+    }
 
-/* first page side illustrations*/
-.computer-illustration {
-    position: absolute;
-    top: 0%;
-    left: -50%;
-    width: 250px;
-    z-index: -1;
-}
+    .person-illustration {
+        right: -60%;
+        width: 200px;
+    }
 
-.person-illustration {
-    position: absolute;
-    top: 40%;
-    right: -60%;
-    width: 250px;
-    z-index: -1;
 }
 
 /*styling the about page  **************************************************************************/
