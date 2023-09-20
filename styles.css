@@ -519,6 +519,10 @@ header > div {
     border-radius: 15px 15px 0px 0px;
 }
 
+.project-stack {
+    margin-top: 5px;
+}
+
 .project-stack img {
     width: 20px;
 }
