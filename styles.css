@@ -909,11 +909,13 @@ body {
     scrollbar-width: none;  /* Firefox */
 }
 
-/* Styling the footer */
+/* Styling the footer ******************************************************************************/
 footer {
     padding: 2rem;
     display: flex;
     justify-content: space-between;
+    color: white;
+    background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #607d94);
 }
 
 .footer-info {
