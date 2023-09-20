@@ -133,15 +133,19 @@ header > div {
 }
 
 .backToHome {
-    color: #5badcc;
     position: sticky;
-    width: 10px;
-    margin-left: 90%;
-    bottom: 10%;
+    bottom: 6%;
 }
 
-.backToHome h3 {
+.backToHome > div {
     position: absolute;
+    color: #5badcc;
+    width: 10px;
+    margin-left: 90%;
+    bottom: 5%;
+}
+
+.backToHome p {
     margin: 0;
 }
 
