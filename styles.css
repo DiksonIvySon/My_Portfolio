@@ -229,12 +229,19 @@ header > div {
 }
 
 /* styling the first page content ...........................................................*/
+.firstPage {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .firstPage-tittle {
     text-align: center;
 }
 
-.firstPage-container {
-    margin: 2rem;
+.firstPage > div {
+    margin-inline: 2rem;
 }
 
 .firstPage-content {
@@ -262,7 +269,7 @@ header > div {
 .firstPage-picture-container {
     width: 25%;
     min-width: 160px;
-    height: 450px;
+    height: 420px;
     border: 2px solid rgb(193, 193, 193);
     padding: 10px;
     border-radius: 150px;
@@ -296,13 +303,58 @@ header > div {
     background-color:  hsl(0 0% 100% / 0.9);
 }
 
-@media (max-width:1000px) {
+@media (min-width:900px) {
+    .firstPage-mobileView-content {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
     .firstPageSideContent {
         display: none;
     }
+
+    .firstPage-picture-container {
+        height: 340px;
+    } 
+
+    .firstPage-mobileView-content {
+        display: block;
+    }
+
     .firstPage-picture-container {
         margin: auto;
     }
+
+    .firstPage-mobileView-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .firstPage-button {
+        height: 60px;
+    }
+
+    .firstPage p {
+        font-size: 12px;
+    }
+
+    .firstPage h1 {
+        font-size: 16px;
+    }
+
+    .firstPage h2 {
+        font-size: 15px;
+    }
+
+    .firstPage h3 {
+        font-size: 14px;
+    }
+
+    .firstPage h4 {
+        font-size: 13px;
+    }
+
 }
 
 /* first page side illustrations*/
