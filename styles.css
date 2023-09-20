@@ -331,9 +331,23 @@ header > div {
         justify-content: space-between;
     }
 
+    .firstPage-mobileView-content .left-text {
+        text-align: left;
+    }
+
+    .firstPage-mobileView-content .middle-text {
+        text-align: center;
+    }
+
+    .firstPage-mobileView-content .right-text {
+        text-align: right;
+    }
+
     .firstPage-button {
         height: 60px;
     }
+
+    
 
     .firstPage p {
         font-size: 12px;
