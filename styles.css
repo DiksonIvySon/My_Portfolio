@@ -337,6 +337,9 @@ header > div {
 .aboutMe-info {
     max-width: 35rem;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .aboutMe-info-text {
@@ -344,6 +347,10 @@ header > div {
     border-radius: 1rem;
     margin: 1.7rem 0rem 0rem 0rem;
     /*background: linear-gradient(145deg, #cacaca, #f0f0f0);*/
+}
+
+.aboutMe-icons {
+    padding-left: 1rem;
 }
 
 .myAboutPage-picture {
