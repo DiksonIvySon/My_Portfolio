@@ -296,6 +296,15 @@ header > div {
     background-color:  hsl(0 0% 100% / 0.9);
 }
 
+@media (max-width:1000px) {
+    .firstPageSideContent {
+        display: none;
+    }
+    .firstPage-picture-container {
+        margin: auto;
+    }
+}
+
 /* first page side illustrations*/
 .computer-illustration {
     position: absolute;
@@ -425,7 +434,7 @@ header > div {
     width: 2rem;
 } 
 
-@media (min-width:1500px) {
+@media (min-width:1350px) {
     .technology {
         max-width: 30rem;
     }
@@ -934,7 +943,8 @@ footer {
 }
 
 .footer-image img {
-    max-height: 300px;
+    max-height: 350px;
+    min-width: 100px;
     height: 100%;
     width: 100%;
     object-fit: cover;
