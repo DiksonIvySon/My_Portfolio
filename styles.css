@@ -1038,8 +1038,11 @@ footer {
     justify-content: space-between;
 }
 
-.footer-contacts {
-    margin: 5px 0px;
+.footer-contacts button{
+    margin:0px;
+    padding: 5px;
+    border-radius: 0px;
+    width: 216px;
 }
 
 .footer-image img {
