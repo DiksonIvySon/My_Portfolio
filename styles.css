@@ -365,6 +365,22 @@ header > div {
         height: 60px;
     }
 
+    .backToHome {
+        bottom: 0%;
+    }
+
+    .backToHome > div {
+        width: 10px;
+        margin-left: 90%;
+        bottom: 5%;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .backToHome img {
+        width: 30px;
+    }
+
     .firstPage p {
         font-size: 12px;
     }
