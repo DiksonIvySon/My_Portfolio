@@ -939,7 +939,7 @@ footer {
 }
 
 .footer-contacts button{
-    margin:0px;
+    margin:10px 0px;
     padding: 5px;
     border-radius: 0px;
     width: 216px;
@@ -993,6 +993,10 @@ footer {
         text-align: right;
     }
 
+    .firstPage-mobileView-content h1, p {
+        color: gray;
+    }
+
     .firstPage-button {
         height: 60px;
     }
@@ -1042,7 +1046,7 @@ footer {
     }
 
     .firstPage-tittle h4 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /* first page side illustrations*/
