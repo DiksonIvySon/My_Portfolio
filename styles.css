@@ -321,106 +321,6 @@ header > div {
     z-index: -1;
 }
 
-@media (min-width:800px) {
-    .firstPage-mobileView-content {
-        display: none;
-    }
-}
-
-@media (max-width:800px) {
-    .firstPageSideContent {
-        display: none;
-    }
-
-    .firstPage-picture-container {
-        height: 340px;
-    } 
-
-    .firstPage-mobileView-content {
-        display: block;
-    }
-
-    .firstPage-picture-container {
-        margin: auto;
-    }
-
-    .firstPage-mobileView-content {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .firstPage-mobileView-content .left-text {
-        text-align: left;
-    }
-
-    .firstPage-mobileView-content .middle-text {
-        text-align: center;
-    }
-
-    .firstPage-mobileView-content .right-text {
-        text-align: right;
-    }
-
-    .firstPage-button {
-        height: 60px;
-    }
-
-    .backToHome {
-        bottom: 0%;
-    }
-
-    .backToHome > div {
-        width: 10px;
-        margin-left: 90%;
-        bottom: 5%;
-        font-size: 10px;
-        font-weight: 700;
-    }
-
-    .backToHome img {
-        width: 30px;
-    }
-
-    .firstPage p {
-        font-size: 12px;
-    }
-
-    .firstPage h1 {
-        font-size: 16px;
-    }
-
-    .firstPage h2 {
-        font-size: 15px;
-    }
-
-    .firstPage h3 {
-        font-size: 14px;
-    }
-
-    .firstPage h4 {
-        font-size: 13px;
-    }
-
-    .firstPage-tittle h1 {
-        font-size: 30px;
-    }
-
-    .firstPage-tittle h4 {
-        font-size: 20px;
-    }
-
-    /* first page side illustrations*/
-    .computer-illustration {
-        left: -60%;
-        width: 200px;
-    }
-
-    .person-illustration {
-        right: -60%;
-        width: 200px;
-    }
-
-}
 
 /*styling the about page  **************************************************************************/
 .about-Page {
@@ -1051,4 +951,109 @@ footer {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media (min-width:800px) {
+    .firstPage-mobileView-content {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .firstPageSideContent {
+        display: none;
+    }
+
+    .firstPage-picture-container {
+        height: 340px;
+    } 
+
+    .firstPage-mobileView-content {
+        display: block;
+    }
+
+    .firstPage-picture-container {
+        margin: auto;
+    }
+
+    .firstPage-mobileView-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .firstPage-mobileView-content .left-text {
+        text-align: left;
+    }
+
+    .firstPage-mobileView-content .middle-text {
+        text-align: center;
+    }
+
+    .firstPage-mobileView-content .right-text {
+        text-align: right;
+    }
+
+    .firstPage-button {
+        height: 60px;
+    }
+
+    .backToHome {
+        bottom: 0%;
+    }
+
+    .backToHome > div {
+        width: 10px;
+        margin-left: 90%;
+        bottom: 5%;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .backToHome img {
+        width: 30px;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    .firstPage p {
+        font-size: 12px;
+    }
+
+    .firstPage h1 {
+        font-size: 16px;
+    }
+
+    .firstPage h2 {
+        font-size: 15px;
+    }
+
+    .firstPage h3 {
+        font-size: 14px;
+    }
+
+    .firstPage h4 {
+        font-size: 13px;
+    }
+
+    .firstPage-tittle h1 {
+        font-size: 30px;
+    }
+
+    .firstPage-tittle h4 {
+        font-size: 20px;
+    }
+
+    /* first page side illustrations*/
+    .computer-illustration {
+        left: -60%;
+        width: 200px;
+    }
+
+    .person-illustration {
+        right: -60%;
+        width: 200px;
+    }
+
 }
