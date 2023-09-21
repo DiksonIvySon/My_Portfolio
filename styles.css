@@ -125,6 +125,7 @@ header > div {
 .scrollbar {
     height: 2px;
     width: 0%;
+    max-width: 100vw;
     transition: all linear 0.2s;
     background-color: #5badcc;
     position: sticky;
