@@ -135,7 +135,7 @@ header > div {
 
 .backToHome {
     position: sticky;
-    bottom: 6%;
+    bottom: 9%;
 }
 
 .backToHome > div {
@@ -436,7 +436,7 @@ header > div {
 
 @media (min-width:1350px) {
     .technology {
-        max-width: 30rem;
+        max-width: 21rem;
     }
 
     .myStack {
@@ -1002,7 +1002,7 @@ footer {
     }
 
     .firstPage-button {
-        height: 60px;
+        height: 40px;
     }
 
     .backToHome {
