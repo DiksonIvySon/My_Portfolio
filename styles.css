@@ -896,6 +896,10 @@ div.scroll-container {
     text-decoration: none;
     color: blue;
 }
+
+.blogPost-readMore {
+    margin: 15px 0px;
+}
   
 /* On mouse-over, add a deeper shadow */
 .card:hover {
