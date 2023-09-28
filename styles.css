@@ -1071,6 +1071,13 @@ footer {
 }
 
 /* styling the contact pop up form*/
+.pop-ups {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .contact-pop-up .container {
     position: relative;
     width: 90vw;
