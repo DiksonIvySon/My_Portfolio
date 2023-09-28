@@ -1188,7 +1188,7 @@ footer {
     color: #FFF;
     left: -150%;
     height: 100%;
-    width: 240%;
+    width: 250%;
     transition: transform 0.6s ease-in-out;
 }
 
@@ -1213,5 +1213,44 @@ footer {
 .contact-pop-up .overlay-right {
     right: 0;
     transform: translateX(0%);
+}
+
+.contact-pop-up .right-panel-active .overlay-container {
+    transform: translateX(-150%);
+}
+
+.contact-pop-up .right-panel-active .overlay{
+    transform: translateX(50%);
+}
+
+.contact-pop-up .right-panel-active .overlay-left {
+    transform: translateX(25%);
+}
+
+.contact-pop-up .right-panel-active .overlay-right {
+    transform: translateX(35%);
+}
+
+.contact-pop-up .right-panel-active .sign-in-container {
+    transform: translateX(20%);
+    opacity: 0;
+}
+
+.contact-pop-up .right-panel-active .sign-up-container {
+    transform: translateX(66.7%);
+    opacity: 1;
+    z-index: 5;
+    animation: show 0.6s;
+}
+
+@keyframes show {
+    0%, 50% {
+        opacity: 0;
+        z-index: 5;
+    }
+    50.1%, 100% {
+        opacity: 1;
+        z-index: 5;
+    }
 }
 
