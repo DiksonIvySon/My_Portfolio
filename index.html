@@ -141,7 +141,7 @@
                         <button class="firstPage-button"><i class="fa-regular fa-file-lines"></i> View Or Download CV</button>
                     </div>
                     <div>
-                        <button class="firstPage-button"><i class="fa-regular fa-address-book"></i> Contact Me</button>
+                        <button class="firstPage-button" onclick="handleContact()"><i class="fa-regular fa-address-book"></i> Contact Me</button>
                     </div>
                     <div>
                         <button class="firstPage-button"><i class="fa-brands fa-github"></i> View My Github Account</button>
@@ -856,7 +856,7 @@
 
     <div class="pop-ups">
         <div class="CV-pop-up"></div>
-        <div class="contact-pop-up">
+        <div id="contact-pop-up" class="contact-pop-up" style="display: none">
             <div class="container" id="container">
                 <div class="form-container sign-up-container">
                     <form action="#">

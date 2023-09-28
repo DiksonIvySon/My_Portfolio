@@ -59,3 +59,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//function to handle contact pop-up
+function handleContact() {
+  hideOrReveal("#contact-pop-up");
+}
+
+//function to hide a reveal an element
+function hideOrReveal(elementID) {
+  let domElement = document.querySelector(elementID);
+
+  if (domElement.style.display === "none") {
+    domElement.style.display = "block";
+  }
+  else {
+    domElement.style.display = "none";
+  }
+}
