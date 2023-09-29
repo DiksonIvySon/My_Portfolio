@@ -1082,7 +1082,7 @@ footer {
     position: relative;
     width: 90vw;
     height: 70vh;
-    background-color: wheat;
+    background-color: white;
     box-shadow: 25px 30px 55px #5557;
     border-radius: 15px;
     overflow: hidden;
@@ -1223,7 +1223,7 @@ footer {
 
 .contact-pop-up .overlay {
     position: relative; 
-    background-color: #14213D;
+    background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #448197, #607d94);
     color: #FFF;
     left: -150%;
     height: 100%;
