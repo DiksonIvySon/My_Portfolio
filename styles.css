@@ -1088,6 +1088,10 @@ footer {
     overflow: hidden;
 }
 
+.contact-pop-up .container button {
+    padding: 10px;
+}
+
 .contact-pop-up .form-container {
     position: absolute;
     width: 60%;
