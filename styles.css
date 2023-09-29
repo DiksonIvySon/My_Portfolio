@@ -1132,7 +1132,9 @@ footer {
 }
 
 .contact-pop-up .social-container a {
-    border: 1px solid #DDD;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -1140,6 +1142,12 @@ footer {
     margin: 0px 5px;
     height: 40px;
     width: 40px;
+    transition: 0.4s ease-in-out;
+}
+
+.contact-pop-up .social-container a:hover {
+    color: #5badcc;
+    border:1px solid #5badcc;
 }
 
 .contact-pop-up .infield {
