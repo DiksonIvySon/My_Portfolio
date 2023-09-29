@@ -1096,13 +1096,22 @@ footer {
     transition: all 0.6s ease-in-out;
 }
 
-.contact-pop-up .sign-up-container {
+.contact-pop-up .E-mail-container {
     opacity: 0;
     z-index: 1;
 }
 
-.contact-pop-up .sign-in-container {
+.contact-pop-up .whatsApp-call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     z-index: 2;
+}
+
+.contact-pop-up .whatsApp-call-container .infield {
+    background-color: #f3f3f3;
+    padding: 10px;
 }
 
 .contact-pop-up form {
@@ -1170,7 +1179,7 @@ footer {
     position: absolute;
     top: 0;
     left: 60%;
-    width: 40%;
+    width: 37%;
     height: 100%;
     overflow: hidden;
     transition: transform 0.6s ease-in-out;
@@ -1214,13 +1223,13 @@ footer {
 }
 
 .contact-pop-up .overlay-left {
-    right: 60%;
+    right: 63%;
     transform: translateX(-12%);
 }
 
 .contact-pop-up .overlay-right {
     right: 0;
-    transform: translateX(0%);
+    transform: translateX(-24%);
 }
 
 .contact-pop-up .right-panel-active .overlay-container {
@@ -1239,12 +1248,12 @@ footer {
     transform: translateX(35%);
 }
 
-.contact-pop-up .right-panel-active .sign-in-container {
+.contact-pop-up .right-panel-active .whatsApp-call-container {
     transform: translateX(20%);
     opacity: 0;
 }
 
-.contact-pop-up .right-panel-active .sign-up-container {
+.contact-pop-up .right-panel-active .E-mail-container {
     transform: translateX(66.7%);
     opacity: 1;
     z-index: 5;
