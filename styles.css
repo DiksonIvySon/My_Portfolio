@@ -518,6 +518,11 @@ header > div {
     border: 1px solid black;
 }
 
+.project-container:hover {
+    border: 1px solid #5badcc;
+    transition: 0.2s ease-out;
+}
+
 .project-image {
     height: 150px;
     border-radius: 15px 15px 0px 0px;
