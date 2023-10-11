@@ -15,15 +15,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display&display=swap" rel="stylesheet">
     <!-- Script-->
-    <script defer src="script.js"></script>
+    <script defer src="contact.js"></script>
 </head>
 <body>
     <div>
         <div>
-            <h1>My CV</h1>
+            <h1 class="heading">LETS TALK</h1>
         </div>
-        <div>
-            <div class="cv-image">
+        <div class="cancel-form">
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Back to home</p>
+            </a>
+        </div>
+        <div class="contents">
+            <div class="pop-ups">
+                <div class="CV-pop-up"></div>
+                <div id="contact-pop-up" class="contact-pop-up">
+                    <div class="container" id="container">
+                        <div class="form-container E-mail-container">
+                            <form action="#">
+                                <h1>Send me an E-mail</h1>
+                                <div class="infield">
+                                    <input type="text" placeholder="Name" />
+                                    <label></label>
+                                </div>
+                                <div class="infield">
+                                    <input type="email" placeholder="Email" name="email"/>
+                                    <label></label>
+                                </div>
+                                <div class="infield">
+                                    <input type="text" placeholder="Subject line" name="subjectLine"/>
+                                    <label></label>
+                                </div>
+                                <div class="infield">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                                </div>
+                                <div class="project-buttons">
+                                    <button>Send E-mail</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-container whatsApp-call-container project-buttons">
+                            <div>
+                                <h1>Call or WhatsApp me</h1>
+                                <span>or use my socials</span>
+                                <div class="infield">
+                                    <div>
+                                        <h4>+27 076 215 746</h4>
+                                        <div>
+                                            <button>Copy Number</button>
+                                            <button>Call</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="infield">
+                                    <div>
+                                        <h4>WhatsApp</h4>
+                                        <div>
+                                            <button>Send whatsApp message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="social"><i class="fa-brands fa-discord"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overlay-container" id="overlayCon">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Well!</h1>
+                                    <p>Should you prefer another contact method or a quicker one</p>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Hello there!</h1>
+                                    <p>If you would like to send me an E-mail instead of calling or chatting with me on whatsApp.</p>
+                                </div>
+                            </div>
+                            <button class="overlayBtn">Click Here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+     <div class="cv-image">
                 <img src="" alt="my cv image">
             </div>
             <div class="right-section">
@@ -41,9 +124,15 @@
                 <h1>My Certificates</h1>
                 <div class="cert-scroll-container">
                     <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
+                    <div class="certificate"></div>
                 </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+-->
