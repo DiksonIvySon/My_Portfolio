@@ -60,10 +60,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//function to handle contact pop-up
-function handleContact() {
-  hideOrReveal("#contact-pop-up");
-}
 
 //function to hide a reveal an element
 function hideOrReveal(elementID) {

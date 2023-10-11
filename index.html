@@ -144,7 +144,9 @@
                         </a>
                     </div>
                     <div>
-                        <button class="firstPage-button" onclick="handleContact()"><i class="fa-regular fa-address-book"></i> Contact Me</button>
+                        <a href="contact.html">
+                            <button class="firstPage-button"><i class="fa-regular fa-address-book"></i> Contact Me</button>
+                        </a>
                     </div>
                     <div>
                         <button class="firstPage-button"><i class="fa-brands fa-github"></i> View My Github Account</button>
@@ -849,81 +851,6 @@
                 </a>
             </div>
             <p>Home</p>
-        </div>
-    </div>
-
-    <div class="pop-ups">
-        <div class="CV-pop-up"></div>
-        <div id="contact-pop-up" class="contact-pop-up" style="display: none">
-            <div class="cancel-form" onclick="handleContact()">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-            <div class="container" id="container">
-                <div class="form-container E-mail-container">
-                    <form action="#">
-                        <h1>Send me an E-mail</h1>
-                        <div class="infield">
-                            <input type="text" placeholder="Name" />
-                            <label></label>
-                        </div>
-                        <div class="infield">
-                            <input type="email" placeholder="Email" name="email"/>
-                            <label></label>
-                        </div>
-                        <div class="infield">
-                            <input type="text" placeholder="Subject line" name="subjectLine"/>
-                            <label></label>
-                        </div>
-                        <div class="infield">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-                        </div>
-                        <div class="project-buttons">
-                            <button>Send E-mail</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="form-container whatsApp-call-container project-buttons">
-                    <div>
-                        <h1>Call or WhatsApp me</h1>
-                        <span>or use my socials</span>
-                        <div class="infield">
-                            <div>
-                                <h4>+27 076 215 746</h4>
-                                <div>
-                                    <button>Copy Number</button>
-                                    <button>Call</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="infield">
-                            <div>
-                                <h4>WhatsApp</h4>
-                                <div>
-                                    <button>Send whatsApp message</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="social-container">
-                            <a href="#" class="social"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#" class="social"><i class="fa-brands fa-discord"></i></a>
-                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="overlay-container" id="overlayCon">
-                    <div class="overlay">
-                        <div class="overlay-panel overlay-left">
-                            <h1>Well!</h1>
-                            <p>Should you prefer another contact method or a quicker one</p>
-                        </div>
-                        <div class="overlay-panel overlay-right">
-                            <h1>Hello there!</h1>
-                            <p>If you would like to send me an E-mail instead of calling or chatting with me on whatsApp.</p>
-                        </div>
-                    </div>
-                    <button class="overlayBtn">Click Here</button>
-                </div>
-            </div>
         </div>
     </div>
 </body>
