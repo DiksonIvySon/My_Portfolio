@@ -273,8 +273,12 @@ body {
     width: 100%;
     min-width: 250px;
     max-width: 350px;
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 10px 10px 0px 0px;
+}
+
+.project-container:hover {
+    border: 1px solid #5badcc;
 }
 
 .project-container > img {
@@ -344,5 +348,15 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background-color: #2e3c47;
+}
+
+/* animating the project containers on scroll*/
+.project-container {
+    transform: translateY(70px);
+    transition: all 0.4s;
+}
+
+.show {
+    transform: translateY(0);
 }
 
