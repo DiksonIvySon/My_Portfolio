@@ -79,6 +79,16 @@ body {
     align-items: center;
 }
 
+.header2-buttons {
+    margin-inline: 20px;
+}
+
+.header2-buttons button {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
 .user-info {
     display: flex;
     align-items: center;
@@ -90,7 +100,7 @@ body {
     padding: 15px;  
 }
 
-/* styling the buttons */
+/* styling all buttons */
 .allButtons p {
     margin: 0px;
 }
@@ -118,7 +128,7 @@ body {
     width: 50px;
     height: 100%;
     background: rgba(255,255,255,0.5);
-    transform: skewX(30deg) translateX(150px);
+    transform: skewX(30deg) translateX(250px);
     transition: 1s;
 }
 
