@@ -261,13 +261,13 @@ body {
 
 @keyframes show {
     0%, 50% {
-        opacity: 0;
+        opacity: 1;
         z-index: 5;
     }
     50.1%, 100% {
         opacity: 1;
         z-index: 5;
-    }
+    }      
 }
 
 /* styling the buttons */

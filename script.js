@@ -72,3 +72,22 @@ function hideOrReveal(elementID) {
     domElement.style.display = "none";
   }
 }
+
+//Making the scroll animation
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+    else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+const project_containers = document.querySelectorAll('#project-container');
+project_containers.forEach((el) => observer.observe(el));
+
+const blog_cards = document.querySelectorAll('#blog-card');
+blog_cards.forEach((el) => observer.observe(el));
