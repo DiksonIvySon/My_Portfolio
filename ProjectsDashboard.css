@@ -90,6 +90,43 @@ body {
     padding: 15px;  
 }
 
+/* styling the buttons */
+.allButtons p {
+    margin: 0px;
+}
+
+.allButtons button {
+    border-radius: 3px;
+    padding: 3px;
+    margin: 4px 0px;
+    border: 0px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    position: relative;
+    overflow: hidden;
+} 
+
+.allButtons button:hover {
+    cursor: pointer;
+    color: #5badcc;
+}
+
+.allButtons button::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(30deg) translateX(150px);
+    transition: 1s;
+}
+
+.allButtons button:hover::before {
+    transform: skewX(30deg) translateX(-150px); 
+}
+
+/* styling the side bar ***********************************/
 .sidebar {
     background-color: #082f49;
     grid-area: side;
@@ -215,6 +252,19 @@ body {
 
 .project-para {
     margin-top: 5px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.project-buttons > div {
+    flex: 1;
+}
+
+.project-buttons button {
+    width: 100%;
 }
 
 .process-languages {
