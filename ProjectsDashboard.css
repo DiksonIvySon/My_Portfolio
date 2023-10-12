@@ -227,13 +227,19 @@ body {
     color: #5badcc;
 }
 
-
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 .project-container {
     margin: 20px;
-    max-width: 300px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
     border: 1px solid;
-    border-radius: 10px 10px 0px 0px ;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .project-container > img {
