@@ -18,7 +18,9 @@ body {
 }
 
 .header {
-    background-color: #0c4a6e;
+    /*background-color: #0c4a6e;*/
+    background-image: url(images/html-system-website-concept_23-2150376770.avif);
+    background-size: cover;
     grid-area: header;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,7 +47,8 @@ body {
 
 .search {
     width: 50%;
-    border-radius: 10px;
+    border-radius: 4px;
+    background-color: white;
 } 
 
 .search input {
@@ -72,7 +75,7 @@ body {
 
 .header2 {
     grid-area: header2;
-    background-color: #082f49;
+    background-color: hsla(0, 0%, 0%, 0.4);
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -138,7 +141,7 @@ body {
 
 /* styling the side bar ***********************************/
 .sidebar {
-    background-color: #082f49;
+    background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #448197, #607d94);
     grid-area: side;
     display: grid;
     grid-template-columns: 1fr;
