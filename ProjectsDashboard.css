@@ -42,18 +42,19 @@ body {
 }
 
 .search-bar div {
-    padding-inline: 10px;
+    padding: 10px;
 }
 
 .search {
     width: 50%;
     border-radius: 4px;
-    background-color: white;
+    background-color: hsla(0, 0%, 0%, 0.4);
 } 
 
 .search input {
     width: 100%;
     font-size: 20px;
+    color: #fff;
     outline: none;
 }
 
@@ -64,7 +65,7 @@ body {
 
 .search i{
     font-size: 20px;
-    color: black;
+    color: #fff;
 }
 
 .search-bar .search input{
