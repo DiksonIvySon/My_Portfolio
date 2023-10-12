@@ -2,9 +2,11 @@
 
 body {
     color: #fff;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: San-Francisco, Helvetica, Arial, Georgia, Tahoma, sans-serif;
     
     height: 100vh;
     display: grid;
@@ -106,13 +108,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 10px;
     position: sticky;
     top: 3%;
 }
 
 .branding img {
     width: 60px;
+    border-radius: 5px;
 }
 
 .branding-name strong{
@@ -187,8 +190,31 @@ body {
     color: #5badcc;
 }
 
-.project-content {
-    padding: 20px;
+
+
+.project-container {
+    margin: 20px;
+    max-width: 300px;
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.project-container > img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.project-info {
+    margin: 10px;
+}
+
+.project-title {
+    margin: 0;
+}
+
+.project-para {
+    margin-top: 5px;
 }
 
 .process-languages {
@@ -198,6 +224,9 @@ body {
 
 .process-languages div {
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .process-languages i {
