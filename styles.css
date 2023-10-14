@@ -4,15 +4,17 @@
 }
 
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     box-sizing:border-box;
+    max-width: 1440px;
 }
 
 html {
     scroll-behavior: smooth;
     scroll-snap-align: start;
     width: 100vw;
+    margin: auto;
 }
 
 :root {
