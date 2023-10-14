@@ -142,7 +142,7 @@ header > div {
     position: absolute;
     color: #5badcc;
     width: 10px;
-    margin-left: 90%;
+    margin-left: 95%;
     bottom: 5%;
 }
 
@@ -1102,8 +1102,6 @@ footer {
     transition: all 1s;
 }
 
-
-
 .blog-card:nth-child(1) {
     transition-delay: 200ms;
 }
@@ -1115,7 +1113,6 @@ footer {
 .blog-card:nth-child(3) {
     transition-delay: 600ms;
 }
-
 
 .show {
     transform: translateY(0);
