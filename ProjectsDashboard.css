@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 200px 5fr;
+    grid-template-rows: 170px 5fr;
     grid-template-areas:
         "side header"
         "side main";
@@ -101,7 +101,7 @@ body {
 .user-info img {
     width: 50px;
     border-radius: 50%;
-    padding: 15px;  
+    padding: 8px 15px;  
 }
 
 /* styling all buttons */
