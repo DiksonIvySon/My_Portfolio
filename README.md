@@ -1,8 +1,5 @@
+<center><img src="images/myLogo.jpg" width=100px style="margin: 0 auto"></center>
 
-
-<div style="width:100px; margin: 0 auto">
-  <img src="images/myLogo.jpg" />
-</div>
 
 # My Portfolio Website
 
