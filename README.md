@@ -1,4 +1,4 @@
-<center><img src="images/myLogo.jpg" width=100px style="margin: 0 auto"></center>
+<p style="text-align: center"><img src="images/myLogo.jpg#center" width=100px style="margin: 0 auto"></p>
 
 
 # My Portfolio Website
