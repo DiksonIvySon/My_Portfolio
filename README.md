@@ -1,5 +1,5 @@
-<p style="text-align: center"><img src="images/myLogo.jpg#center" width=100px style="margin: 0 auto"></p>
-
+<p style="text-align: center"><img src="images/myLogo.png#center" width=100px style="margin: 0 auto"></p>
+![alt text](images/myLogo3.jpg)
 
 # My Portfolio Website
 
