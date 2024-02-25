@@ -999,6 +999,8 @@ footer {
 footer .footer-links {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 footer .footer-links .links-div ul {
