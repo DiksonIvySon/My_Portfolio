@@ -362,11 +362,20 @@ header > div {
     justify-content: space-between;
 }
 
+.aboutMe-info .icons {
+    margin: auto;
+}
+
 .aboutMe-info-text {
     padding: 1rem;
     border-radius: 1rem;
     margin: 1.7rem 0rem 0rem 0rem;
     /*background: linear-gradient(145deg, #cacaca, #f0f0f0);*/
+    text-align: center;
+}
+
+.aboutMe-info-text h2 {
+    margin: 10px;
 }
 
 .aboutMe-icons {
@@ -387,9 +396,15 @@ header > div {
 }
 
 .allTechnologies {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+}
+
+.allTechnologies > div {
+    flex: 1;
 }
 
 .myStack {
@@ -404,11 +419,23 @@ header > div {
 }
 
 .technology {
-    max-width: 20rem;
-    margin: 0.5rem;
+    min-width: 300px;
+    margin: 0.5rem 0rem;
     background-color: hsla(0, 0%, 0%, 0.2);
-    padding: 0.5rem;
+    padding: 20px 20px;
     border-radius: 0.5rem;
+}
+
+.technology-grouping {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.technology-grouping > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .technology-images {
@@ -423,8 +450,12 @@ header > div {
     margin: 0.2rem 0rem;
 }
 
-.technology-paragraph {
-    margin: 0.2rem 0rem;
+.technology ul {
+    margin: 20px;
+}
+
+.technology ul, .technology-paragraph {
+    margin: 10px 20px;
 }
 
 .icons {
@@ -453,9 +484,8 @@ header > div {
 
 @media (min-width:1350px) {
     .technology {
-        max-width: 21rem;
+        max-width: 25rem;
     }
-
     .myStack {
         max-width: 80rem;
     }
@@ -878,6 +908,7 @@ header > div {
 /*styling the blogPost page*************************************************************************/
 .blogPost-Page {
     text-align: center;
+    margin: 50px 70px 80px 70px;
 }
 
 div.scroll-container {
