@@ -432,6 +432,12 @@ header > div {
     gap: 50px;
 }
 
+.technology hr {
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
 .technology-grouping > div {
     display: flex;
     align-items: center;
