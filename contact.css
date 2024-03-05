@@ -179,7 +179,7 @@ body {
     cursor: pointer;
     position: absolute;
     left: 50%;
-    top: 350px;
+    bottom: 150px;
     transform: translateX(-50%);
     width: 143px;
     height: 40px;
