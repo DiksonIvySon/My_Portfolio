@@ -539,23 +539,7 @@ header > div {
     }
 }
 
-@media (min-width:380px) and (max-width:540px ){
-    .technology {
-        max-width: 8rem;
-    }
-}
 
-@media (max-width:380px) {
-    .technology {
-        max-width: 7.7rem;
-    }
-}
-
-@media (max-width:360px) {
-    .technology {
-        max-width: 15rem;
-    }
-}
 
 /*styling the projects page *************************************************************************/
 .projects-Page {
