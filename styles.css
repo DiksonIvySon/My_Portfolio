@@ -1081,6 +1081,13 @@ footer hr {
     margin: 10px 0px;
 }
 
+@media (max-width:450px) {
+    footer .footer-links {
+        display: flex;
+        justify-content:left;
+    }
+}
+
 @media (min-width:800px) {
     .firstPage-mobileView-content {
         display: none;
