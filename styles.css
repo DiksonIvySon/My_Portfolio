@@ -619,7 +619,7 @@ header > div {
 } 
 
 .project-buttons button:hover {
-   /* cursor: pointer;*/
+    cursor: pointer;
     color: #5badcc;
 }
 
@@ -919,7 +919,7 @@ div.scroll-container {
     margin: 1rem;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 30px;
 }
 
 /* Styling the blog post horizontal scroll bar */
@@ -938,7 +938,7 @@ div.scroll-container {
 .blog-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    min-width: 250px;
+    min-width: 300px;
     width: 70%;
 }
 
@@ -982,10 +982,17 @@ div.scroll-container {
     white-space: normal;
 }
 
+@media (max-width:850px) {
+    .blogPost-Page {
+        text-align: center;
+        margin: 30px 25px 50px 25px;
+    }
+}
+
 @media (max-width:450px) {
     .blogPost-Page {
         text-align: center;
-        margin: 30px 20px 50px 20px;
+        margin: 30px 12px 50px 12px;
     }
 }
 
@@ -1063,6 +1070,10 @@ footer hr {
     background-color: burlywood;
     border: none;
     margin: 10px 0px;
+}
+
+footer .footer-copyrights {
+    font-size: 12px;
 }
 
 @media (max-width:450px) {
