@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dikson Manganye Portfolio</title>
     <link rel="shortcut icon" type="x-icon" href="images/myLogo.jpg">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contact.css">
     <!--font awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
@@ -17,92 +18,143 @@
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display&display=swap" rel="stylesheet">
     <!-- Script-->
     <script defer src="contact.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div>
+    <header>
         <div>
-            <h1 class="heading">LETS TALK</h1>
-        </div>
-        <div class="cancel-form">
-            <a href="index.html">
-                <i class="fa-solid fa-arrow-left"></i>
-                <p>Back to home</p>
-            </a>
-        </div>
-        <div class="contents">
-            <div class="pop-ups">
-                <div class="CV-pop-up"></div>
-                <div id="contact-pop-up" class="contact-pop-up">
-                    <div class="container" id="container">
-                        <div class="form-container E-mail-container">
-                            <form action="#">
-                                <h1>Send me an E-mail</h1>
-                                <div class="infield">
-                                    <input type="text" placeholder="Name" />
-                                    <label></label>
-                                </div>
-                                <div class="infield">
-                                    <input type="email" placeholder="Email" name="email"/>
-                                    <label></label>
-                                </div>
-                                <div class="infield">
-                                    <input type="text" placeholder="Subject line" name="subjectLine"/>
-                                    <label></label>
-                                </div>
-                                <div class="infield">
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-                                </div>
-                                <div class="project-buttons">
-                                    <button>Send E-mail</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="form-container whatsApp-call-container project-buttons">
-                            <div>
-                                <h1>Call or WhatsApp me</h1>
-                                <span>or use my socials</span>
-                                <div class="infield">
-                                    <div>
-                                        <h4>+27 71 302 9647</h4>
-                                        <div>
-                                            <button>Copy Number</button>
-                                            <button>Call</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="infield">
-                                    <div>
-                                        <h4>WhatsApp</h4>
-                                        <div>
-                                            <button>Send whatsApp message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-container">
-                                    <a href="https://www.instagram.com/dikson_ivyson?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"" class="social"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://discord.com/channels/@me" class="social"><i class="fa-brands fa-discord"></i></a>
-                                    <a href="https://www.linkedin.com/in/dikson-manganye-a8b773213/" class="social"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-container" id="overlayCon">
-                            <div class="overlay">
-                                <div class="overlay-panel overlay-left">
-                                    <h1>Well!</h1>
-                                    <p>Should you prefer another contact method or a quicker one</p>
-                                </div>
-                                <div class="overlay-panel overlay-right">
-                                    <h1>Hello there!</h1>
-                                    <p>If you would like to send me an E-mail instead of calling or chatting with me on whatsApp.</p>
-                                </div>
-                            </div>
-                            <button class="overlayBtn">Click Here</button>
-                        </div>
+            <div class="logo">
+                <div>
+                    <div class="logo-name">
+                        <a href="index.html">
+                            <h1>Dikson</h1>
+                            <h3 class="italic-surname">Manganye</h3>
+                        </a>
                     </div>
                 </div>
             </div>
+    
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="mobile-nav-toggle-span"><i class="fa-solid fa-bars"></i></span>
+            </button>
+    
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation" >
+                    <li class="nav-item"><a class="nav-link" href="index.html"><span aria-hidden="true">01</span>BACK HOME</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <div class="scrollbar"></div>
+
+    <main>
+        <div>
+            <h1 class="heading">LETS TALK</h1>
+        </div>
+        <div class="contact-contents">
+            <div id="contact-pop-up" class="contact-pop-up">
+                <div class="container" id="container">
+                    <div class="form-container E-mail-container">
+                        <form action="#">
+                            <h1>Send me an E-mail</h1>
+                            <div class="infield">
+                                <input type="text" placeholder="Name" />
+                                <label></label>
+                            </div>
+                            <div class="infield">
+                                <input type="email" placeholder="Email" name="email"/>
+                                <label></label>
+                            </div>
+                            <div class="infield">
+                                <input type="text" placeholder="Subject line" name="subjectLine"/>
+                                <label></label>
+                            </div>
+                            <div class="infield">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                            </div>
+                            <div class="email-btn project-buttons">
+                                <button>Send E-mail</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-container whatsApp-call-container project-buttons"> 
+                        <div class="social-container">
+                            <a href="https://www.instagram.com/dikson_ivyson?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"" class="social"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://discord.com/channels/@me" class="social"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://www.linkedin.com/in/dikson-manganye-a8b773213/" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-image">
+            <img src="images/myLogo.png" alt="">
+        </div>
+        <div class="footer-links">
+            <div class="footer-info">
+                <div class="footer-contact-info">
+                    <h1>Contact</h1>
+                    <p>Please contact me if you think that our <br>
+                       work could be mutually beneficial.
+                    </p>
+                    <div class="footer-contacts project-buttons">
+                        <a href="contact.html">
+                            <button class="">Contact Me</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-links links-div">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="#firstPage">Home</a></li>
+                    <li><a href="#about-Page">About</a></li>
+                    <li><a href="#projects-Page">Projects</a></li>
+                    <li><a href="#testimonials-Page">Testimonials</a></li>
+                    <li><a href="#blogPost-Page">Blog Posts</a></li>
+                </ul>
+            </div>
+            <div class="useful-links links-div">
+                <h1>Other Links</h1>
+                <ul>
+                    <li><a target="_blank" href="files/DIKSON CV 31August2023.pdf">View my CV</a></li>
+                    <li><a href="contact.html">contact Me</a></li> 
+                    <li><a target="_blank" href="https://github.com/DiksonIvySon">View my Github</a></li>
+                    <li><a href="personalInfo.html">My Personality and Hobbies</a></li>
+                    <li><a href="ProjectsDashboard.html">View my other projects</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/dikson_ivyson?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D">
+                        <img src="icons/instagram.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/in/dikson-manganye-a8b773213/">
+                        <img src="icons/linkedin.png" alt="">
+
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="https://discord.com/channels/@me">
+                        <img src="icons/dIscord.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-copyrights">
+            <p>South Africa</p>
+            <p>Copyright © 2023 Dikson Manganye. All rights reserved</p>
+            <p>Privacy Policy | Teams of Use | Legal | Site Map</p>
+        </div>
+    </footer>
 </body>
 </html>
 
