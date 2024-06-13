@@ -43,6 +43,12 @@ main {
     margin: 1rem;
 }
 
+.contact-pop-up .social-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .contact-pop-up .social-container a {
     border: 1px solid black;
     color: black;
