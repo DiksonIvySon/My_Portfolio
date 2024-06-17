@@ -3,6 +3,7 @@
 let primaryNavigation = document.querySelector('.primary-navigation');
 let mobileNavToggle = document.querySelector('.mobile-nav-toggle');
 let mobileNavToggle_span = document.querySelector('.mobile-nav-toggle-span');
+let body = document.querySelector('.body');
 
 mobileNavToggle.addEventListener('click', () => {
     let visibility = primaryNavigation.getAttribute('data-visible');
@@ -12,12 +13,24 @@ mobileNavToggle.addEventListener('click', () => {
         mobileNavToggle.setAttribute('aria-expanded', true);
         mobileNavToggle_span.textContent = "";
         mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-xmark"></i>`
+
+        //Disable scrolling
+        const scrollY = Window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollY}px`;
+
     }
     else if (visibility === "true") {
         primaryNavigation.setAttribute('data-visible', false);
         mobileNavToggle.setAttribute('aria-expanded', false);
         mobileNavToggle_span.textContent = "";
         mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
+
+        //Enable scrolling
+        const scrollY = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1)
     }
 });
 

@@ -109,6 +109,7 @@ header > div {
     gap: clamp(1.5rem, 5vw, 3.5rem);
     padding: 1.1rem;
     font-family: var(--ff-sans-normal);
+    z-index: 3000;
 }
 
 .primary-navigation li {
@@ -426,7 +427,7 @@ header > div {
 }
 
 .technology {
-    min-width: 300px;
+    min-width:300px;
     margin: 0.5rem 0rem;
     background-color: hsla(0, 0%, 0%, 0.2);
     padding: 20px 20px;
