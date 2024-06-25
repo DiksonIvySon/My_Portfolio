@@ -117,3 +117,41 @@ main {
     border-radius: 0px;
     width: 216px;
 }
+
+.form-container #form {
+    animation-name: formFade;
+    animation-duration: 2s;
+}
+
+@keyframes formFade {
+    from {opacity: .0}
+    to {opacity: 1}
+}
+
+/*styling the email error messages*/
+.form-container #form div span {
+    color: burlywood;
+    margin-left: 10px;
+}
+
+/*styling the email successful-form-popup*/
+.successful-form-popup {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {opacity: .0}
+    to {opacity: 1}
+}
+
+.form-container .successful-form-popup .successful-form-icorn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-container .successful-form-popup .successful-form-icorn img{
+    max-height: 300px;
+}

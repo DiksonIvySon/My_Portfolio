@@ -56,27 +56,42 @@
             <div id="contact-pop-up" class="contact-pop-up">
                 <div class="container" id="container">
                     <div class="form-container E-mail-container">
-                        <form action="#">
+                        <form id="form" action="#" style="display: block;">
                             <h1>Send me an E-mail</h1>
                             <div class="infield">
-                                <input type="text" placeholder="Name" />
+                                <input type="text" id="name" placeholder="Name" />
                                 <label></label>
+                                <span id="name_error"></span>
                             </div>
                             <div class="infield">
-                                <input type="email" placeholder="Email" name="email"/>
+                                <input type="email" id="email" placeholder="Email" name="email"/>
                                 <label></label>
+                                <span id="email_error"></span>
                             </div>
                             <div class="infield">
-                                <input type="text" placeholder="Subject line" name="subjectLine"/>
+                                <input type="text" id="subjectLine" placeholder="Subject line" name="subjectLine"/>
                                 <label></label>
+                                <span id="subjectLine_error"></span>
                             </div>
                             <div class="infield">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+                                <span id="message_error"></span>
                             </div>
                             <div class="email-btn project-buttons">
-                                <button>Send E-mail</button>
+                                <button type="submit">Send E-mail</button>
                             </div>
                         </form>
+                        <div class="successful-form-popup" id="successful-form-popup" style="display: none;">
+                            <div  class="successful-form-icorn">
+                                <img src="illastrations/emailSent.gif" alt="">
+                                <h3>
+                                    The email was successfully sent
+                                </h3>
+                            </div>
+                            <div class="email-btn project-buttons">
+                                <button id="sendAnotherEmail">Send Another E-mail</button>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-container "> 
                         <div class="social-container">
