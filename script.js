@@ -16,8 +16,8 @@ mobileNavToggle.addEventListener('click', () => {
 
         //Disable scrolling
         const scrollY = Window.scrollY;
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${scrollY}px`;
+        document.primaryNavigation.style.position = 'fixed';
+        document.primaryNavigation.style.top = `-${scrollY}px`;
 
     }
     else if (visibility === "true") {
@@ -28,8 +28,8 @@ mobileNavToggle.addEventListener('click', () => {
 
         //Enable scrolling
         const scrollY = document.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
+        document.primaryNavigation.style.position = '';
+        document.primaryNavigation.style.top = '';
         window.scrollTo(0, parseInt(scrollY || '0') * -1)
     }
 });
@@ -37,7 +37,34 @@ mobileNavToggle.addEventListener('click', () => {
 //making mobile nav close when a navigation is clicked
 const navLink = document.getElementById('nav-link');
 navLink.addEventListener('click', () => {
+  primaryNavigation.setAttribute('data-visible', false);
+  mobileNavToggle.setAttribute('aria-expanded', false);
+  mobileNavToggle_span.textContent = "";
+  mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
+})
 
+const navLink2 = document.getElementById('nav-link2');
+navLink2.addEventListener('click', () => {
+  primaryNavigation.setAttribute('data-visible', false);
+  mobileNavToggle.setAttribute('aria-expanded', false);
+  mobileNavToggle_span.textContent = "";
+  mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
+})
+
+const navLink3 = document.getElementById('nav-link3');
+navLink3.addEventListener('click', () => {
+  primaryNavigation.setAttribute('data-visible', false);
+  mobileNavToggle.setAttribute('aria-expanded', false);
+  mobileNavToggle_span.textContent = "";
+  mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
+})
+
+const navLink4 = document.getElementById('nav-link4');
+navLink4.addEventListener('click', () => {
+  primaryNavigation.setAttribute('data-visible', false);
+  mobileNavToggle.setAttribute('aria-expanded', false);
+  mobileNavToggle_span.textContent = "";
+  mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
 })
 
 // Making the scrollbar functional.
