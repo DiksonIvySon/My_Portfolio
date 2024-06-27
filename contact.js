@@ -29,6 +29,9 @@ form.addEventListener('submit',(e) => {
       e.preventDefault();
       name_error.innerHTML = "Name is required";
       emailStatus = false;
+
+      //do not show line label
+      document.querySelector('#lineLabel').style.backgroundColor = 'white';
     }else {
       name_error.innerHTML = "";
     }
@@ -38,6 +41,9 @@ form.addEventListener('submit',(e) => {
       e.preventDefault();
       email_error.innerHTML = "A valid email is required";
       emailStatus = false;
+
+      //do not show line label
+      document.querySelector('#lineLabel2').style.backgroundColor = 'white';
     }else {
       email_error.innerHTML = "";
     }
@@ -46,6 +52,9 @@ form.addEventListener('submit',(e) => {
       e.preventDefault();
       subjectLine_error.innerHTML = "A descriptive subject line is required";
       emailStatus = false;
+
+      //do not show line label
+      document.querySelector('#lineLabel3').style.backgroundColor = 'white';
     }else {
       subjectLine_error.innerHTML = "";
     }
@@ -79,3 +88,5 @@ sendAnotherEmail.addEventListener('click', () => {
   form.style.display = "block";
   successfulFormPopup.style.display = "none";
 });
+
+// do not show the 
