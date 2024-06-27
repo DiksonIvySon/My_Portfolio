@@ -225,7 +225,7 @@ header > div {
     .primary-navigation {
         background-color: hsl(0 0% 100% / 0.1);
         background-color: #717171;
-        backdrop-filter: blur(1.5rem);
+        /*backdrop-filter: blur(1.5rem);*/
     }
 }
 

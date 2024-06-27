@@ -34,6 +34,12 @@ mobileNavToggle.addEventListener('click', () => {
     }
 });
 
+//making mobile nav close when a navigation is clicked
+const navLink = document.getElementById('nav-link');
+navLink.addEventListener('click', () => {
+
+})
+
 // Making the scrollbar functional.
 let fullHeight = document.body.scrollHeight - window.innerHeight;
 
