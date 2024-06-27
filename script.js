@@ -14,10 +14,10 @@ mobileNavToggle.addEventListener('click', () => {
         mobileNavToggle_span.textContent = "";
         mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-xmark"></i>`
 
-        //Disable scrolling
+        /*//Disable scrolling
         const scrollY = Window.scrollY;
-        document.primaryNavigation.style.position = 'fixed';
-        document.primaryNavigation.style.top = `-${scrollY}px`;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollY}px`;*/
 
     }
     else if (visibility === "true") {
@@ -26,11 +26,11 @@ mobileNavToggle.addEventListener('click', () => {
         mobileNavToggle_span.textContent = "";
         mobileNavToggle_span.innerHTML = `<i class="fa-solid fa-bars"></i>`
 
-        //Enable scrolling
+       /* //Enable scrolling
         const scrollY = document.body.style.top;
-        document.primaryNavigation.style.position = '';
-        document.primaryNavigation.style.top = '';
-        window.scrollTo(0, parseInt(scrollY || '0') * -1)
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1)*/
     }
 });
 
