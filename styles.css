@@ -768,6 +768,14 @@ header > div {
     background-color: white;
 }
 
+.card .contribution-description h1{
+    color: burlywood;
+}
+
+.card .contribution-description p{
+    color: white;
+}
+
 .testimonial-slider {
     font-family: Arial, sans-serif;
     position: relative;
