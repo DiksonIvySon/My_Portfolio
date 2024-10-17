@@ -148,4 +148,4 @@ function showNextTestimonial() {
     testimonials[currentIndex].classList.add('active');
 }
 
-setInterval(showNextTestimonial, 5000);
+setInterval(showNextTestimonial, 8000);

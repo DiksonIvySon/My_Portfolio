@@ -599,7 +599,7 @@ header > div {
     color: black;
     background-color: rgb(180, 180, 180);
 }
-
+  
 .project-content {
     display: flex;
     background-color: white;
@@ -684,6 +684,9 @@ header > div {
 /*styling the testimonials page ********************************************************************/
 .testimonials-Page {
     background-image: linear-gradient(180deg, #2e3c47, #2f3d48, #364856, #607d94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonialsPage-heading {
@@ -694,11 +697,82 @@ header > div {
     width: 100%;
 }
 
+.latest-contribution {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    margin: 60px 10px;
+    max-width: 1300px;
+    gap: 25px;
+}
+
+.contri-card-container {
+    perspective: 1000px;
+    max-width: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.left-card {
+    transform: rotateY(20deg);
+}
+
+.right-card {
+    transform: rotateY(-20deg);
+}
+
+.right-card:hover, .left-card:hover{
+    transform: rotateY(0deg);
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+}
+
+.card button:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.card .contribution-description {
+    padding: 10px;
+    color: rgb(192, 190, 190);
+}
+
+.card .contribution-description hr{
+    margin-bottom: 5px;
+}
+
+.card .contribution-description hr{
+    margin-bottom: 5px;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
 .testimonial-slider {
     font-family: Arial, sans-serif;
     position: relative;
     max-width: 1300px;
-    margin: auto;
+    margin: 20px 20px 70px 20px;
     overflow: hidden;
     border: 2px solid burlywood;
     border-radius: 0px 0px 10px 10px;
