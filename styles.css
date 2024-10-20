@@ -907,13 +907,13 @@ header > div {
 
 .testimonial {
     display: none;
-    padding: 20px;
+    padding: 20px 10px;
     background-color: transparent;
 }
 
 .testimonial div {
     display: none;
-    padding: 5px 20px;
+    padding: 5px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
