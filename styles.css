@@ -361,14 +361,16 @@ header > div {
 .aboutPage-container {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .aboutMe-info {
     max-width: 35rem;
-    margin: 2rem;
+    margin: 8rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 95px;
 }
 
 .aboutMe-info .icons {
@@ -379,37 +381,108 @@ header > div {
     padding: 1rem;
     border-radius: 1rem;
     margin: 1.7rem 0rem 0rem 0rem;
+    background-color: hsla(0, 0%, 0%, 0.2);
     /*background: linear-gradient(145deg, #cacaca, #f0f0f0);*/
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.aboutMe-info-text .last-para{
+    margin-bottom: 30px;
 }
 
 .aboutMe-info-text h2 {
     margin: 10px;
 }
 
-.aboutMe-icons {
+.icons .aboutMe-icons {
     padding-left: 1rem;
 }
 
+.myAboutPage-picture-container {
+    max-width: 1220px;
+    max-height: 230px;
+    position: relative;
+}
+
+.myAboutPage-picture-container > img{
+    width: 90%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.myAboutPage-picture-container > img {
+    border: 5px solid hsla(0, 0%, 0%, 0.2);
+}
+
 .myAboutPage-picture {
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
     display: flex;
     justify-content: center;
 }
 
 .myAboutPage-picture img {
-    min-width: 3rem;
-    max-width: 15rem;
+    min-width: 5rem;
+    max-width: 20rem;
     width: 100%;
-    border-radius: 50%;
-
+    border-radius: 4px;
 }
 
-.allTechnologies {
+.mypainting-picture {
+    position: absolute;
+    bottom: -80px;
+    right: 0px;
+    display: flex;
+    max-height: 20rem;
+    border: 5px solid hsla(0, 0%, 0%, 0.2);
+    border-radius: 15px;
+}
+
+.mypainting-picture img {
+    min-width: 5rem;
+    max-width: 17rem;
+    max-height: 10rem;
+    height: 400px;
+    border-radius: 9px;
+    object-fit: fill;
+}
+
+.myhiking-picture {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    display: flex;
+    max-height: 20rem;
+    border: 5px solid hsla(0, 0%, 0%, 0.2);
+    border-radius: 15px;
+}
+
+.myhiking-picture img {
+    min-width: 5rem;
+    max-width: 17rem;
+    max-height: 10rem;
+    height: 400px;
+    border-radius: 9px;
+    object-fit: fill;
+}
+
+/* .allTechnologies {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+} */
+
+.allTechnologies {
+    margin-top: 30px;
+    display: grid; /* Use grid display */
+    grid-template-columns: repeat(2, 1fr); /* Responsive columns */
+    gap: 20px; /* Space between items */
 }
 
 .allTechnologies > div {
@@ -417,9 +490,17 @@ header > div {
 }
 
 .myStack {
-    margin: 2rem;
+    flex: 1;
+    margin: 0rem;
     border-radius: 1rem;
+    max-width: 650px;
+    /*background-color: hsla(0, 0%, 0%, 0.2);*/
+    /*width: 90%;*/
     /*background: linear-gradient(145deg, #cacaca, #f0f0f0);*/
+}
+
+.myStack h1 {
+    margin-top: 0px;
 }
 
 .myStack-title {
@@ -428,17 +509,19 @@ header > div {
 }
 
 .technology {
-    min-width:300px;
+    flex: 1 1 100%; /* Allow cards to stack on top of each other */
+    /*max-width: 300px;*/
+    min-width:200px;
     margin: 0.5rem 0rem;
     background-color: hsla(0, 0%, 0%, 0.2);
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-radius: 0.5rem;
 }
 
 .technology-grouping {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 8px;
 }
 
 .technology hr {
@@ -492,21 +575,22 @@ header > div {
 
 .icons img:hover {
     transform: translateY(-20px);
+
     cursor: pointer;
     filter: none;
     width: 2rem;
 } 
 
-@media (min-width:1350px) {
+/* @media (min-width:1350px) {
     .technology {
         max-width: 25rem;
     }
     .myStack {
         max-width: 80rem;
     }
-}
+} */
 
-@media (min-width:920px) and (max-width:1350px) {
+/* @media (min-width:920px) and (max-width:1350px) {
     .myStack {
         min-width: 600px;
     }
@@ -518,11 +602,12 @@ header > div {
     .aboutMe-info {
         min-width: 300px;
     }
-}
-
-@media (max-width:920px) {
+} */
+ 
+@media (max-width:1010px) {
     .aboutPage-container {
         flex-direction: column;
+        margin-top: 80px;
     }
 
     .aboutMe-info {
@@ -531,18 +616,52 @@ header > div {
 
     .myStack {
         min-width: 3rem;
-    }
-
-    .technology {
-        max-width: 20rem;
+        margin: 30px;
     }
 
     .aboutMe-info {
         margin: 0rem 2rem 0rem 2rem;
     }
+
+    .myStack {
+        max-width: 1950px;
+    }
 }
 
+@media (max-width:550px) {
+    .allTechnologies {
+        margin-top: 30px;
+        display: grid; /* Use grid display */
+        grid-template-columns: repeat(1, 1fr); /* Responsive columns */
+        gap: 10px; /* Space between items */
+    }
 
+    .myhiking-picture { 
+        top: -40px;
+        right: -10px;
+        max-height: 6rem;
+    }
+    
+    .myhiking-picture img {
+        min-width: 5rem;
+        max-width: 5rem;
+        max-height: 5rem;
+        height: 100%;
+    }
+
+    .mypainting-picture {
+        bottom: -60px;
+        right: -10px;
+        max-height: 20rem;
+    }
+    
+    .mypainting-picture img {
+        min-width: 5rem;
+        max-width: 10rem;
+        max-height: 7rem;
+        height: 400px;
+    }
+}
 
 /*styling the projects page *************************************************************************/
 .projects-Page {

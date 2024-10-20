@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "wireframing"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/index.html"
 }
