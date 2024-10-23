@@ -1,4 +1,9 @@
-
+window.onload = () => {
+  const firstPageElements = document.querySelectorAll('#firstPage *');
+  firstPageElements.forEach((element) => {
+      element.classList.add('animate');
+  });
+};
 
 let primaryNavigation = document.querySelector('.primary-navigation');
 let mobileNavToggle = document.querySelector('.mobile-nav-toggle');
