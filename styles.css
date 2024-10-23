@@ -330,7 +330,66 @@ header > div {
     background-color:  hsl(0 0% 100% / 0.9);
 }
 
-/* first page side illustrations*/
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Applying Animations */
+.firstPage-tittle {
+    animation: fadeIn 1s ease forwards;
+}
+
+.firstPage-container {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.firstPage-leftSide-content,
+.firstPage-rightSide-content {
+    animation: slideIn 1.5s ease forwards;
+}
+
+.firstPage-picture-container {
+    animation: fadeIn 2s ease forwards;
+}
+
+.firstPage-buttons {
+    animation: fadeIn 2.5s ease forwards;
+}
+
+/* Delay for individual elements */
+.firstPage-leftSide-content {
+    animation-delay: 0.5s;
+}
+
+.firstPage-rightSide-content {
+    animation-delay: 0.5s;
+}
+
+.firstPage-buttons {
+    animation-delay: 1.5s;
+}
+
+
+/* first page side illustrations ***************************************************************************/
 .computer-illustration {
     position: absolute;
     top: 0%;
@@ -506,6 +565,7 @@ header > div {
 .myStack-title {
     text-align: center;
     margin: 0;
+    font-size: 40px;
 }
 
 .technology {
