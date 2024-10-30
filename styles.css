@@ -687,7 +687,7 @@ header > div {
     }
 } */
  
-@media (max-width:1010px) {
+@media (max-width:1070px) {
     .aboutPage-container {
         flex-direction: column;
         margin-top: 80px;
@@ -711,7 +711,7 @@ header > div {
     }
 }
 
-@media (max-width:550px) {
+@media (max-width:650px) {
     .allTechnologies {
         margin-top: 30px;
         display: grid; /* Use grid display */
