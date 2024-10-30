@@ -618,6 +618,15 @@ header > div {
     width: 2rem;
 }
 
+.backend-image {
+    background-color: white;
+    height: 2rem;
+}
+
+.backend-image img {
+    width: 4rem;
+}
+
 .technology-heading {
     margin: 0.2rem 0rem;
 }
