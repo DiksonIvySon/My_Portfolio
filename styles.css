@@ -264,7 +264,16 @@ header > div {
 }
 
 .firstPage-tittle {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstPage-tittle hr {
+    height: 1px;
+    background-color: #14213D;
+    border: none;
 }
 
 .firstPage > div {
