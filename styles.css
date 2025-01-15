@@ -908,19 +908,28 @@ header > div {
     width: 100%;
 }
 
+.edu-and-certs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .education {
     border-radius: 15px;
     min-width: 300px;
     max-width: 600px;
     margin: 15px;
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     padding: 10px;
-    color: white;
+    color: black;
+    background-image: url('./images/white-background3.jpg');
+    background-size: cover;
 }
 
 .education div {
     display: flex;
     justify-content: space-between;
+
 }
 
 /* .latest-contribution {
