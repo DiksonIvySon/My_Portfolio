@@ -272,8 +272,8 @@ header > div {
 
 .firstPage-tittle hr {
     height: 1px;
-    background-color: #14213D; 
-    border: none;
+    background-color: rgb(168, 168, 168);
+    border: none; 
 }
 
 .firstPage > div {
@@ -908,7 +908,22 @@ header > div {
     width: 100%;
 }
 
-.latest-contribution {
+.education {
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 15px;
+    border: 1px solid burlywood;
+    padding: 10px;
+    color: white;
+}
+
+.education div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .latest-contribution {
     display: flex;
     align-items: center;
     justify-content: space-evenly ;
@@ -985,7 +1000,7 @@ header > div {
 
 .card .contribution-description p{
     color: white;
-}
+} */
 
 .testimonial-slider {
     font-family: Arial, sans-serif;
@@ -993,7 +1008,7 @@ header > div {
     max-width: 1300px;
     margin: 20px 20px 70px 20px;
     overflow: hidden;
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     border-radius: 0px 0px 10px 10px;
 }
 
