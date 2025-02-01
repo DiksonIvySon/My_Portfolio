@@ -775,6 +775,24 @@ header > div {
     width: 300px;
     margin: 15px;
     border: 1px solid black;
+    position: relative;
+}
+
+.workingOn {
+    position: absolute;
+    right: 0px;
+    top: -32px;
+    background-color: #5badcc;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 15px 0px 15px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workingOn i {
+    color: gold;
 }
 
 .project-container:hover {
