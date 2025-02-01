@@ -604,6 +604,7 @@ header > div {
 .technology-grouping {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 8px;
 }
 
@@ -625,16 +626,17 @@ header > div {
 
 .technology-images img {
     width: 2rem;
+    height: 2rem;
 }
 
-.backend-image {
+/* .backend-image {
     background-color: white;
     height: 2rem;
 }
 
 .backend-image img {
     width: 4rem;
-}
+} */
 
 .technology-heading {
     margin: 0.2rem 0rem;
@@ -910,7 +912,7 @@ header > div {
 
 .edu-and-certs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     flex-wrap: wrap;
 }
 
@@ -924,6 +926,14 @@ header > div {
     color: black;
     background-image: url('./images/white-background3.jpg');
     background-size: cover;
+}
+
+.education hr {
+    height: 1px;
+    margin: 5px 0px;
+    border: 0px;
+    background-color: #14213D;
+
 }
 
 .education div {

@@ -20,6 +20,8 @@ const message_error = document.getElementById('message_error');
 
 const successfulFormPopup = document.getElementById('successful-form-popup')
 
+emailjs.init("CSLrYE2i9yeJKRTpW");
+
 
 form.addEventListener('submit',(e) => {
   let emailStatus = true;
@@ -68,11 +70,26 @@ form.addEventListener('submit',(e) => {
     }
   }
 
-  //Display the success message
   if (emailStatus) {
-    form.style.display = "none";
-    successfulFormPopup.style.display = "block";
-    e.preventDefault();
+    //Send the email
+    let params = {
+      name : messengerName.value,
+      email : email.value,
+      subject : subjectLine.value,
+      message : message.value,
+    };
+    emailjs.send("service_dkdhkqy", "template_d3ls77c", params)
+      .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          //Display the success message
+          form.style.display = "none";
+          successfulFormPopup.style.display = "block";
+          //e.preventDefault();
+      }, (error) => {
+          console.error('FAILED...', error);
+          alert('There was an issue sending your message. Please try again later.');
+      });
+
   }
 })
 
