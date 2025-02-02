@@ -781,12 +781,12 @@ header > div {
 .workingOn {
     position: absolute;
     right: 0px;
-    top: -32px;
+    top: -27px;
     background-color: #5badcc;
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 5px;
+    padding: 2px 5px;
     border-radius: 15px 0px 15px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
