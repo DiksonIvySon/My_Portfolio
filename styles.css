@@ -47,6 +47,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: red;
+    width: 100vw;
 }
 
 header > div {
@@ -940,6 +942,26 @@ header > div {
     max-width: 1200px;
     display: flex;
     gap: 40px;
+    padding: 10px 0px 40px 0px;
+}
+
+.project-release-section img {
+    max-width: 700px;
+}
+
+.testimonials-hr-div {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.testimonials-Page hr {
+    height: 2px;
+    width: 100%;
+    background-color: burlywood;
+    border: none;
+    margin: 10px 0px;
 }
 
 /* .project-release-section div {
