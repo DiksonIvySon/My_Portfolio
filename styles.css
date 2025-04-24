@@ -3,6 +3,13 @@
     src: url(fonts/SFUIText-RegularG1.otf);
 }
 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 *{
     margin: 0;
     padding: 0px;
@@ -964,9 +971,37 @@ header > div {
     margin: 10px 0px;
 }
 
-/* .project-release-section div {
-    margin: 40px;
-} */
+.project-release-section .link-buttons button {
+    padding: 15px;
+    font-size: 15px;
+}
+.project-release-section p {
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.project-release-section .sub-p {
+    margin-left: 30px;
+    font-weight: normal;
+} 
+
+.project-release-section .protech-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+} 
+
+.project-release-section .protech-heading img {
+    max-width: 80px;
+} 
+
+.project-release-section h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
 
 .testimonialsPage-heading {
     color: white;
